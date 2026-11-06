@@ -1,0 +1,1330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VK360 by Coach Vimal | Wellness, Nutrition &amp; Fitness Coaching</title>
+<meta name="description" content="VK360 by Coach Vimal: wellness, nutrition, fitness and lifestyle coaching from VK Fitness &amp; Wellness Center. 16 years of helping people build healthier everyday habits.">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A2116" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://harshavarthanep.github.io/VK360/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VK360">
+<meta property="og:title" content="VK360 by Coach Vimal | Wellness, every angle">
+<meta property="og:description" content="Wellness, nutrition, fitness and lifestyle coaching with Coach Vimal. 16 years of experience.">
+<meta property="og:url" content="https://harshavarthanep.github.io/VK360/">
+<meta property="og:image" content="https://harshavarthanep.github.io/VK360/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+
+<script>
+/* =====================================================================
+   VK360 WEBSITE CONTENT  —  EDIT EVERYTHING ON THIS PAGE FROM HERE
+   ---------------------------------------------------------------------
+   • Change text between the quotes "like this".
+   • Dates are written as "YYYY-MM-DD"  (e.g. "2026-12-13").
+   • Times are 24-hour "HH:MM"           (e.g. "06:30", "17:00").
+   • To hide something, leave it empty: ""  or  []
+   • Events disappear from the site automatically after their end date.
+   • Photos / videos: upload them into the "media" folder on GitHub,
+     then write the path here, e.g. "media/coach-vimal.jpg".
+   ===================================================================== */
+window.SITE = {
+
+  brand: {
+    name: "VK360",
+    centre: "VK Fitness & Wellness Center",
+    coach: "Coach Vimal",
+    role: "Wellness & Fitness Coach",
+    years: 16,
+    tagline: "Wellness, every angle.",
+    promise: "Your health. Your fitness. Your better life."
+  },
+
+  contact: {
+    phoneDisplay: "+91 63806 66701",
+    phone: "+916380666701",                 // used for the Call button
+    whatsapp: "916380666701",               // country code + number, no + or spaces
+    whatsappMessage: "Hi Coach Vimal, I found VK360 online and I'd like to know more about your wellness coaching.",
+    email: "",                              // e.g. "hello@vk360.in"
+    address: "",                            // full centre address. Map + directions appear automatically once filled in
+    mapsLink: "",                           // optional: paste your exact Google Maps share link
+    hours: [                                // e.g. { days: "Monday to Saturday", time: "5:30 AM – 9:00 PM" }
+    ]
+  },
+
+  social: {
+    instagram: "",                          // e.g. "https://www.instagram.com/vk360.wellness"
+    facebook: "",                           // e.g. "https://www.facebook.com/vk360"
+    youtube: ""                             // e.g. "https://www.youtube.com/@vk360"
+  },
+
+  /* Thin bar at the very top of the site. Set show: false to hide it. */
+  announcement: {
+    show: true,
+    text: "The 21-Day Healthy Habits Challenge is running now.",
+    linkText: "See what’s on",
+    link: "#whats-on"
+  },
+
+  /* EVENTS & WORKSHOPS  (SAMPLE ENTRIES — replace with your real ones)
+     type        "Workshop" or "Event" (or any word you like, it becomes a filter)
+     startDate   first day            endDate   last day (only for multi-day)
+     startTime / endTime              schedule  optional text, e.g. "Mon, Wed & Fri"
+     mode        "In person" or "Online"
+     venue       place name or "Zoom"  mapQuery  optional exact address for Google Maps
+     price       e.g. "Free" or "₹499"  seats    e.g. "20 seats"
+     link        optional: a registration form link instead of WhatsApp            */
+  events: [
+    {
+      type: "Workshop",
+      title: "21-Day Healthy Habits Challenge",
+      startDate: "2026-11-03",
+      endDate: "2026-11-23",
+      startTime: "06:00",
+      endTime: "06:45",
+      schedule: "",
+      mode: "Online",
+      venue: "Live on Zoom",
+      price: "",
+      seats: "",
+      description: "Build a steady morning routine with daily movement, hydration and sleep check-ins, guided live by Coach Vimal."
+    },
+    {
+      type: "Event",
+      title: "Sunday Morning Wellness Walk",
+      startDate: "2026-11-22",
+      startTime: "06:00",
+      endTime: "07:30",
+      mode: "In person",
+      venue: "VK Fitness & Wellness Center",
+      price: "Free",
+      seats: "",
+      description: "A relaxed group walk, followed by stretching and a short talk on building a healthy breakfast habit."
+    },
+    {
+      type: "Event",
+      title: "Aerobics & Yoga Fusion Session",
+      startDate: "2026-12-06",
+      startTime: "07:00",
+      endTime: "08:15",
+      mode: "In person",
+      venue: "VK Fitness & Wellness Center",
+      price: "",
+      seats: "25 seats",
+      description: "An energising aerobics set that winds down into yoga-based stretches and guided relaxation. Suitable for all levels."
+    },
+    {
+      type: "Workshop",
+      title: "Nutrition Basics for Families",
+      startDate: "2026-12-13",
+      startTime: "17:00",
+      endTime: "18:30",
+      mode: "In person",
+      venue: "VK Fitness & Wellness Center",
+      price: "",
+      seats: "",
+      description: "Plan balanced everyday meals for the whole family, with simple portion, snack and hydration guidance."
+    }
+  ],
+  showPastEvents: false,
+
+  /* NEWS & UPDATES — newest first */
+  updates: [
+    {
+      date: "2026-11-01",
+      title: "Introducing VK360",
+      text: "VK Fitness & Wellness Center now coaches under a new name: VK360, wellness from every angle.",
+      link: ""
+    }
+  ],
+
+  /* PHOTO OF COACH VIMAL — e.g. "media/coach-vimal.jpg" (portrait photo works best) */
+  coachPhoto: "",
+
+  /* VIDEOS — YouTube links or your own video files. Section appears when you add one.
+     { title: "Morning mobility routine", youtube: "https://youtu.be/XXXXXXXXXXX" }
+     { title: "Healthy plate basics", file: "media/healthy-plate.mp4", poster: "media/healthy-plate.jpg" } */
+  videos: [],
+
+  /* POSTS — images with a caption. Section appears when you add one.
+     { image: "media/post-1.jpg", caption: "Hydration tip for summer", date: "2026-11-10", link: "https://instagram.com/p/..." } */
+  posts: [],
+
+  /* CLIENT STORIES — only add real ones, with permission.
+     { name: "Priya S.", detail: "Weight management, 6 months", quote: "..." } */
+  testimonials: [],
+
+  faqs: [
+    { q: "Who is VK360 coaching for?", a: "Anyone who wants healthier everyday habits, whether that means losing weight, gaining healthy weight, getting fitter or simply feeling better. Guidance is personalised for every stage of life." },
+    { q: "How do I get started?", a: "Send a WhatsApp message with your goal. Coach Vimal will talk you through the options and suggest the right place to begin." },
+    { q: "Do I need to be fit already?", a: "No. Coaching starts from where you are today and builds up step by step, at a pace you can keep." },
+    { q: "Can I join a workshop or event without signing up for coaching?", a: "Yes. Current workshops and upcoming events are listed under What’s on, and you can register for each one on WhatsApp." },
+    { q: "Does coaching replace medical advice?", a: "No. Coaching and wellness education are meant to complement, not replace, medical care. If you have a medical condition, speak with your doctor before changing your diet or activity. Individual outcomes vary." }
+  ],
+
+  /* Small credit line in the footer. Leave text empty to hide. */
+  credit: { text: "Website by Harsha Varthan E P", link: "https://harshavarthanep.github.io/portfolio" }
+};
+</script>
+
+<style>
+/* ---------- Tokens ---------- */
+:root{
+  --forest:#0E3B24; --leaf:#5E9F2A; --lime:#B9E34A; --gold:#C9A45C; --cream:#F6F3EA;
+  --bg:#FFFFFF; --surface:#F3F5F0; --surface-2:#E8EDE3; --raised:#FFFFFF;
+  --ink:#0F2A1C; --ink-2:#4A5B50; --ink-3:#77867C; --line:rgba(14,59,36,.12); --line-2:rgba(14,59,36,.2);
+  --accent:var(--leaf); --accent-ink:#FFFFFF;
+  --btn:var(--forest); --btn-ink:var(--cream);
+  --band:var(--forest); --band-ink:#F6F3EA; --band-ink-2:rgba(246,243,234,.72); --band-line:rgba(246,243,234,.14); --band-card:rgba(246,243,234,.06);
+  --logo-ink:var(--forest); --logo-ring:var(--leaf); --logo-num:var(--leaf);
+  --ring-off:var(--surface-2);
+  --focus:#2F7DF6;
+  --shadow:0 1px 2px rgba(14,59,36,.06), 0 12px 32px -12px rgba(14,59,36,.18);
+  --r-lg:32px; --r-md:22px; --r-sm:14px;
+  --gutter:clamp(20px,5vw,48px);
+  --nav-h:64px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A2116; --surface:#0F2B1D; --surface-2:#173826; --raised:#123222;
+    --ink:#F2F0E7; --ink-2:#B9C5BB; --ink-3:#8A9A8F; --line:rgba(246,243,234,.1); --line-2:rgba(246,243,234,.18);
+    --accent:var(--lime); --accent-ink:var(--forest);
+    --btn:var(--lime); --btn-ink:var(--forest);
+    --band:#071A10; --band-card:rgba(246,243,234,.05);
+    --logo-ink:var(--cream); --logo-ring:var(--lime); --logo-num:var(--lime);
+    --ring-off:#1E4430;
+    --focus:#8AB4FF;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 16px 40px -16px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A2116; --surface:#0F2B1D; --surface-2:#173826; --raised:#123222;
+  --ink:#F2F0E7; --ink-2:#B9C5BB; --ink-3:#8A9A8F; --line:rgba(246,243,234,.1); --line-2:rgba(246,243,234,.18);
+  --accent:var(--lime); --accent-ink:var(--forest); --btn:var(--lime); --btn-ink:var(--forest);
+  --band:#071A10; --band-card:rgba(246,243,234,.05);
+  --logo-ink:var(--cream); --logo-ring:var(--lime); --logo-num:var(--lime); --ring-off:#1E4430; --focus:#8AB4FF;
+  color-scheme:dark;
+}
+
+/* ---------- Base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--nav-h) + 24px + env(safe-area-inset-top,0px))}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-stretch:100%;font-size:17px;line-height:1.55;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img,video,iframe{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+h1,h2,h3,h4,p,ul,ol,dl,dd,figure{margin:0}
+ul{padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:8px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.wrap{width:min(1200px, 100% - 2*var(--gutter));margin-inline:auto}
+.ic{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.ic-fill{fill:currentColor;stroke:none}
+
+/* Type scale */
+.display{font-stretch:125%;font-weight:700;letter-spacing:-.025em;line-height:.98;font-size:clamp(2.15rem, 1.1rem + 5.2vw, 5.4rem)}
+.h2{font-stretch:118%;font-weight:680;letter-spacing:-.02em;line-height:1.04;font-size:clamp(1.85rem, 1.2rem + 2.6vw, 3.2rem)}
+.h3{font-stretch:108%;font-weight:650;letter-spacing:-.01em;line-height:1.2;font-size:clamp(1.2rem, 1.05rem + .5vw, 1.45rem)}
+.lede{font-size:clamp(1.06rem, .98rem + .4vw, 1.3rem);line-height:1.5;color:var(--ink-2);max-width:38ch}
+.muted{color:var(--ink-2)}
+.small{font-size:.9rem}
+
+/* Sections */
+.section{padding-block:clamp(72px, 9vw, 136px)}
+.section-tint{background:var(--surface)}
+.section-head{display:grid;align-content:start;justify-items:start;gap:16px;max-width:760px;margin-bottom:clamp(36px,5vw,64px)}
+.section-head p{color:var(--ink-2);font-size:1.08rem;max-width:56ch}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;font-weight:600;font-size:1rem;letter-spacing:-.005em;transition:transform .15s ease, background-color .2s ease, box-shadow .2s ease;white-space:nowrap;-webkit-tap-highlight-color:transparent}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--btn);color:var(--btn-ink)}
+.btn-primary:hover{box-shadow:0 8px 24px -10px color-mix(in srgb, var(--btn) 70%, transparent)}
+.btn-quiet{background:var(--surface);color:var(--ink)}
+.btn-quiet:hover{background:var(--surface-2)}
+.btn-line{border:1px solid var(--line-2);color:var(--ink)}
+.btn-line:hover{background:var(--surface)}
+.btn-sm{min-height:42px;padding:0 18px;font-size:.94rem}
+.btn .ic{width:19px;height:19px}
+
+/* ---------- Announcement ---------- */
+.announce{background:var(--forest);color:var(--cream);font-size:.9rem;padding-top:env(safe-area-inset-top,0px)}
+.announce .wrap{display:flex;align-items:center;justify-content:center;gap:12px;min-height:42px;padding-block:8px;text-align:center}
+.announce .dot{width:7px;height:7px;border-radius:50%;background:var(--gold);flex:none}
+.announce a{color:var(--lime);font-weight:600;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.announce-close{margin-left:auto;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;color:var(--cream);opacity:.7;flex:none}
+.announce-close:hover{opacity:1;background:rgba(246,243,234,.1)}
+.announce-close .ic{width:16px;height:16px}
+.announce p{flex:1;display:flex;align-items:flex-start;justify-content:center;gap:10px}
+.announce p .dot{margin-top:.55em}
+@media (max-width:600px){.announce .wrap{text-align:left}.announce p{justify-content:flex-start}}
+
+/* ---------- Nav ---------- */
+.nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb, var(--bg) 80%, transparent);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid transparent;transition:border-color .2s ease}
+.nav.scrolled{border-bottom-color:var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:24px;height:var(--nav-h)}
+.brand{display:flex;align-items:center;flex:none}
+.brand svg{height:36px;width:auto}
+.nav-links{display:flex;gap:4px;margin-left:auto}
+.nav-links a{padding:8px 14px;border-radius:999px;font-size:.95rem;color:var(--ink-2);font-weight:500;transition:color .15s, background-color .15s}
+.nav-links a:hover{color:var(--ink);background:var(--surface)}
+.nav-cta{flex:none}
+.menu-btn{display:none;margin-left:auto;width:44px;height:44px;border-radius:50%;place-items:center}
+.menu-btn:hover{background:var(--surface)}
+.menu-btn .ic{width:24px;height:24px}
+.sheet{position:fixed;inset:0;z-index:49;background:var(--bg);padding:calc(var(--nav-h) + 16px + env(safe-area-inset-top,0px)) var(--gutter) calc(32px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:32px;overflow-y:auto;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .25s ease, transform .25s ease, visibility 0s .25s}
+.sheet.open{opacity:1;visibility:visible;transform:none;transition:opacity .25s ease, transform .25s ease}
+.sheet nav{display:grid}
+.sheet nav a{font-stretch:118%;font-weight:650;font-size:clamp(1.7rem, 7vw, 2.4rem);letter-spacing:-.02em;padding:12px 0;border-bottom:1px solid var(--line)}
+.sheet-actions{display:grid;gap:12px;margin-top:auto}
+.sheet-actions .btn{width:100%}
+body.menu-open{overflow:hidden}
+body.menu-open .fab,body.menu-open .chat{display:none}
+@media (max-width: 880px){
+  .nav-links,.nav-cta{display:none}
+  .menu-btn{display:grid}
+}
+
+/* ---------- Hero ---------- */
+.hero{padding-block:clamp(40px, 6vw, 96px) clamp(64px, 8vw, 120px);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:clamp(32px,5vw,80px)}
+.hero-copy{display:grid;gap:28px;justify-items:start}
+.hero-by{display:flex;align-items:center;gap:12px;color:var(--ink-2);font-weight:500}
+.hero-by .ring-mini{width:28px;height:28px}
+.hero h1{max-width:9.5ch}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.next-up{display:flex;align-items:center;gap:16px;padding:14px 18px 14px 14px;border-radius:var(--r-md);background:var(--surface);max-width:440px;width:100%;transition:background-color .2s}
+.next-up:hover{background:var(--surface-2)}
+.next-up .cal{display:grid;place-items:center;width:56px;height:56px;border-radius:14px;background:var(--raised);box-shadow:var(--shadow);flex:none;line-height:1}
+.next-up .cal b{font-stretch:118%;font-size:1.35rem;font-weight:700}
+.next-up .cal small{font-size:.72rem;color:var(--ink-2);font-weight:600}
+.next-up .txt{display:grid;gap:2px;min-width:0}
+.next-up .label{display:flex;align-items:center;gap:8px;font-size:.84rem;color:var(--ink-2);font-weight:500}
+.next-up .title{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 0 rgba(201,164,92,.6);flex:none}
+@media (prefers-reduced-motion:no-preference){.live-dot.pulse{animation:pulse 2s infinite}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(201,164,92,.55)}70%{box-shadow:0 0 0 8px rgba(201,164,92,0)}100%{box-shadow:0 0 0 0 rgba(201,164,92,0)}}
+
+.hero-art{position:relative;justify-self:center;width:min(100%, 500px);aspect-ratio:1}
+.hero-art svg{width:100%;height:100%;overflow:visible}
+.hero-art .disc{fill:var(--surface)}
+.hero-art .tick{stroke:var(--line-2);stroke-width:.45;stroke-linecap:round}
+.hero-art .tick.major{stroke:var(--ink-3);stroke-width:.7}
+.hero-art .arc{fill:none;stroke:var(--logo-ring);stroke-width:6.5;stroke-linecap:round}
+.hero-art .dot{fill:var(--gold)}
+.hero-art .vk{fill:var(--logo-ink)}
+.hero-caption{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);font-size:.85rem;color:var(--ink-3);white-space:nowrap;font-stretch:110%;letter-spacing:.14em}
+@media (prefers-reduced-motion:no-preference){
+  .js .hero-art .arc{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.5s cubic-bezier(.65,0,.25,1) .25s forwards}
+  .js .hero-art .vk{opacity:0;animation:fade .7s ease .9s forwards}
+  .js .hero-art .dot{opacity:0;transform:translateY(-26px);transform-box:fill-box;animation:drop .7s cubic-bezier(.34,1.56,.64,1) 1.45s forwards}
+  .js .hero-art .ticks{opacity:0;animation:fade 1.2s ease .1s forwards}
+}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fade{to{opacity:1}}
+@keyframes drop{to{opacity:1;transform:none}}
+
+@media (max-width: 760px){
+  .hero .wrap{grid-template-columns:1fr}
+  .hero-art{width:min(62vw, 280px);order:-1;margin-top:0;justify-self:start}
+  .hero .wrap{gap:24px}
+}
+
+/* ---------- Programs ---------- */
+.programs{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.wheel{position:relative;width:min(100%,440px);aspect-ratio:1;justify-self:center}
+.wheel svg{width:100%;height:100%;overflow:visible}
+.wheel .seg{fill:none;stroke:var(--ring-off);stroke-width:20;stroke-linecap:round;transition:stroke .35s ease, stroke-width .35s ease}
+.wheel .seg.on{stroke:var(--accent);stroke-width:24}
+.wheel .hit{fill:none;stroke:transparent;stroke-width:56;cursor:pointer}
+.wheel .hit:hover + .seg:not(.on){stroke:var(--line-2)}
+.wheel .dot{fill:var(--gold)}
+.wheel-center{position:absolute;inset:22%;display:grid;place-items:center;align-content:center;text-align:center;gap:12px;pointer-events:none}
+.wheel-center .ic{width:40px;height:40px;stroke-width:1.5;color:var(--accent)}
+.wheel-center b{font-stretch:115%;font-weight:650;font-size:clamp(1rem,.8rem + 1vw,1.35rem);line-height:1.15;max-width:12ch}
+.wheel-center small{color:var(--ink-3);font-size:.85rem}
+.tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:28px}
+.tab{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:var(--r-sm);text-align:left;font-weight:600;font-size:.98rem;color:var(--ink-2);border:1px solid var(--line);transition:background-color .2s, color .2s, border-color .2s}
+.tab:hover{color:var(--ink);border-color:var(--line-2)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab .ic{width:22px;height:22px}
+.panel{display:grid;gap:20px}
+.panel p{color:var(--ink-2);max-width:52ch}
+.checks{display:grid;gap:2px;border-top:1px solid var(--line)}
+.checks li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);font-weight:500}
+.checks .ic{color:var(--accent);margin-top:2px;stroke-width:2.2}
+.panel .btn{justify-self:start;margin-top:8px}
+@media (prefers-reduced-motion:no-preference){.panel.swap{animation:panelIn .35s ease}}
+@keyframes panelIn{from{opacity:0;transform:translateY(6px)}}
+@media (max-width: 880px){
+  .programs{grid-template-columns:1fr}
+  .wheel{width:min(80vw,340px)}
+}
+@media (max-width: 380px){ .tabs{grid-template-columns:1fr} }
+
+/* ---------- Process ---------- */
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:20px;counter-reset:step;position:relative}
+.step{display:grid;gap:12px;align-content:start;position:relative;padding-top:56px}
+.step::before{counter-increment:step;content:counter(step);position:absolute;top:0;left:0;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--bg);border:1px solid var(--line-2);font-weight:650;font-stretch:115%;z-index:1}
+.step::after{content:"";position:absolute;top:20px;left:40px;right:-20px;height:1px;background:var(--line-2)}
+.step:last-child::after{display:none}
+.step h3{font-size:1.1rem;font-stretch:108%;font-weight:650}
+.step p{color:var(--ink-2);font-size:.96rem}
+@media (max-width: 980px){
+  .steps{grid-template-columns:1fr;gap:0}
+  .step{padding:0 0 32px 64px}
+  .step::after{top:40px;left:20px;right:auto;width:1px;height:calc(100% - 40px)}
+}
+
+/* ---------- What's on (band) ---------- */
+.band{background:var(--band);color:var(--band-ink)}
+.band .section-head p{color:var(--band-ink-2)}
+.band .muted{color:var(--band-ink-2)}
+.whats{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:clamp(28px,4vw,56px);align-items:start}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.chip{min-height:38px;padding:0 16px;border-radius:999px;border:1px solid var(--band-line);color:var(--band-ink-2);font-size:.92rem;font-weight:600;transition:background-color .2s,color .2s,border-color .2s}
+.chip:hover{color:var(--band-ink);border-color:rgba(246,243,234,.3)}
+.chip[aria-pressed="true"]{background:var(--cream);color:var(--forest);border-color:var(--cream)}
+.chip .n{opacity:.6;margin-left:4px;font-weight:500}
+.events{display:grid;gap:14px}
+.ev{display:grid;grid-template-columns:84px minmax(0,1fr);gap:clamp(16px,2.4vw,28px);padding:clamp(18px,2.4vw,28px);border-radius:var(--r-md);background:var(--band-card);border:1px solid var(--band-line)}
+.ev-date{display:grid;align-self:start;align-content:start;justify-items:center;text-align:center;gap:2px;padding:14px 6px;border-radius:16px;background:rgba(246,243,234,.08);line-height:1.1}
+.ev-date .m{font-size:.8rem;font-weight:600;color:var(--lime)}
+.ev-date .d{font-stretch:122%;font-weight:700;font-size:1.9rem;letter-spacing:-.02em}
+.ev-date .w{font-size:.76rem;color:var(--band-ink-2)}
+.ev-body{display:grid;gap:12px;min-width:0}
+.ev-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tag{display:inline-flex;align-items:center;gap:7px;min-height:26px;padding:0 10px;border-radius:999px;font-size:.8rem;font-weight:600;background:rgba(246,243,234,.08);color:var(--band-ink-2)}
+.tag.now{background:rgba(201,164,92,.16);color:#E9CF98}
+.ev h3{font-stretch:110%;font-weight:650;font-size:clamp(1.15rem,1rem + .6vw,1.45rem);letter-spacing:-.01em;line-height:1.2}
+.ev p{color:var(--band-ink-2);max-width:62ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:.92rem;color:var(--band-ink)}
+.meta span,.meta a{display:inline-flex;align-items:center;gap:8px}
+.meta .ic{width:17px;height:17px;color:var(--lime);opacity:.9}
+.meta a{text-decoration:underline;text-decoration-color:rgba(246,243,234,.35);text-underline-offset:3px}
+.meta a:hover{text-decoration-color:currentColor}
+.ev-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.btn-cream{background:var(--cream);color:var(--forest)}
+.btn-ghost-band{border:1px solid var(--band-line);color:var(--band-ink)}
+.btn-ghost-band:hover{background:rgba(246,243,234,.08)}
+.icon-btn{width:42px;padding:0}
+.ev-actions .sm{display:none}
+@media (max-width:520px){.ev-actions .lg{display:none}.ev-actions .sm{display:inline}.ev-actions .btn-sm{padding:0 14px}}
+.empty{display:grid;gap:16px;justify-items:start;padding:clamp(24px,4vw,40px);border-radius:var(--r-md);border:1px dashed var(--band-line)}
+.updates{display:grid;gap:0;position:sticky;top:calc(var(--nav-h) + 24px)}
+.updates h3{font-stretch:110%;font-weight:650;font-size:1.15rem;padding-bottom:12px;border-bottom:1px solid var(--band-line)}
+.upd{display:grid;gap:6px;padding:18px 0;border-bottom:1px solid var(--band-line)}
+.upd time{font-size:.84rem;color:var(--lime);font-weight:600}
+.upd b{font-weight:600;font-size:1.02rem}
+.upd p{color:var(--band-ink-2);font-size:.95rem}
+.upd a{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:.92rem;color:var(--band-ink)}
+.upd a .ic{width:16px;height:16px}
+@media (max-width: 980px){ .whats{grid-template-columns:1fr} .updates{position:static} }
+@media (max-width: 520px){
+  .ev{grid-template-columns:1fr}
+  .ev-date{grid-auto-flow:column;justify-content:start;align-items:baseline;gap:8px;padding:10px 14px;justify-self:start}
+  .ev-date .d{font-size:1.3rem}
+}
+
+/* ---------- About ---------- */
+.about{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,6vw,96px);align-items:center}
+.portrait{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5;background:var(--forest);color:var(--cream)}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.portrait-fallback{position:absolute;inset:0;display:grid;grid-template-rows:1fr auto;padding:clamp(24px,3vw,36px)}
+.portrait-fallback svg{width:72%;justify-self:center;align-self:center;overflow:visible}
+.portrait-fallback .arc{fill:none;stroke:var(--lime);stroke-width:6.5;stroke-linecap:round}
+.portrait-fallback .tick{stroke:rgba(246,243,234,.22);stroke-width:.45}
+.portrait-fallback .tick.major{stroke:rgba(246,243,234,.5);stroke-width:.7}
+.portrait-name{display:grid;gap:4px}
+.portrait-name b{font-stretch:120%;font-weight:700;font-size:1.6rem;letter-spacing:-.02em}
+.portrait-name span{color:rgba(246,243,234,.72)}
+.portrait .badge{position:absolute;top:18px;left:18px;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(10,33,22,.55);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);color:var(--cream);font-size:.86rem;font-weight:600}
+.portrait .badge .live-dot{box-shadow:none}
+.about-copy{display:grid;gap:20px}
+.about-copy p{color:var(--ink-2);max-width:60ch}
+.facts{display:grid;margin-top:12px;border-top:1px solid var(--line)}
+.facts div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.facts dt{color:var(--ink-3);font-size:.94rem}
+.facts dd{font-weight:550}
+@media (max-width: 880px){ .about{grid-template-columns:1fr} .portrait{max-width:440px} }
+@media (max-width: 420px){ .facts div{grid-template-columns:1fr;gap:2px} }
+
+/* ---------- Vision / Mission / Values ---------- */
+.vm{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,24px)}
+.vm article{display:grid;gap:18px;align-content:start;padding:clamp(28px,4vw,48px);border-radius:var(--r-lg);background:var(--raised);border:1px solid var(--line)}
+.vm h3{display:flex;align-items:center;gap:10px;font-size:1rem;font-weight:600;color:var(--ink-2)}
+.vm h3 .ic{color:var(--accent)}
+.vm p{font-stretch:108%;font-size:clamp(1.25rem, 1.05rem + .8vw, 1.7rem);line-height:1.3;letter-spacing:-.012em;font-weight:500}
+.values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3vw,40px) clamp(20px,3vw,40px);margin-top:clamp(56px,7vw,96px)}
+.value{display:grid;grid-template-columns:48px minmax(0,1fr);gap:16px;align-items:start}
+.value .ic-wrap{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:var(--surface);color:var(--accent)}
+.section-tint .value .ic-wrap{background:var(--raised)}
+.value .ic{width:24px;height:24px}
+.value b{display:block;font-weight:650;font-stretch:106%;margin-bottom:4px}
+.value p{color:var(--ink-2);font-size:.96rem}
+@media (max-width: 880px){ .vm{grid-template-columns:1fr} .values{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width: 560px){ .values{grid-template-columns:1fr} }
+
+/* ---------- Media ---------- */
+.videos{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:20px}
+.video{display:grid;gap:12px}
+.video-frame{position:relative;aspect-ratio:16/9;border-radius:var(--r-md);overflow:hidden;background:var(--surface-2)}
+.video-frame img,.video-frame iframe,.video-frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.play{position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(transparent 50%, rgba(0,0,0,.35))}
+.play span{width:68px;height:68px;border-radius:50%;display:grid;place-items:center;background:rgba(246,243,234,.92);color:var(--forest);transition:transform .2s}
+.play:hover span{transform:scale(1.06)}
+.play .ic{width:26px;height:26px;margin-left:3px}
+.video b{font-weight:600}
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:20px}
+.post{display:grid;gap:12px;align-content:start}
+.post .img{aspect-ratio:1;border-radius:var(--r-md);overflow:hidden;background:var(--surface-2)}
+.post img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.post a:hover img{transform:scale(1.03)}
+.post time{font-size:.84rem;color:var(--ink-3)}
+.media-block + .media-block{margin-top:clamp(48px,6vw,80px)}
+.media-block h3{margin-bottom:20px}
+
+/* ---------- Testimonials ---------- */
+.quotes{display:grid;grid-auto-flow:column;grid-auto-columns:min(86%,420px);gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;scrollbar-width:thin}
+.quote{scroll-snap-align:start;display:grid;gap:20px;align-content:space-between;padding:32px;border-radius:var(--r-lg);background:var(--raised);border:1px solid var(--line)}
+.quote p{font-size:1.12rem;line-height:1.5}
+.quote b{display:block;font-weight:650}
+.quote span{color:var(--ink-3);font-size:.92rem}
+
+/* ---------- FAQ ---------- */
+.faq-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,96px)}
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0;cursor:pointer;font-weight:600;font-size:1.08rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .ic{transition:transform .25s ease;color:var(--ink-3)}
+.faq details[open] summary .ic{transform:rotate(45deg)}
+.faq details p{padding:0 40px 24px 0;color:var(--ink-2);max-width:62ch}
+@media (max-width: 880px){ .faq-grid{grid-template-columns:1fr} }
+
+/* ---------- Contact ---------- */
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-width:0;gap:clamp(16px,2vw,24px)}
+.wa-card{display:grid;gap:28px;align-content:space-between;padding:clamp(28px,4vw,48px);border-radius:var(--r-lg);background:var(--forest);color:var(--cream);min-height:360px}
+.wa-card .ic-wa{width:44px;height:44px;color:var(--lime)}
+.wa-card h3{font-stretch:118%;font-weight:680;font-size:clamp(1.6rem,1.2rem + 1.6vw,2.4rem);letter-spacing:-.02em;line-height:1.08}
+.wa-card p{color:rgba(246,243,234,.75);max-width:40ch}
+.wa-card .num{font-stretch:112%;font-weight:600;font-size:1.15rem;letter-spacing:.01em}
+.wa-card .row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.c-list{display:grid;align-content:start;border-radius:var(--r-lg);background:var(--raised);border:1px solid var(--line);padding:8px clamp(20px,3vw,32px)}
+.c-item{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:16px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}
+.c-item:last-child{border-bottom:0}
+.c-item .ic-wrap{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--surface);color:var(--accent)}
+.c-item small{display:block;color:var(--ink-3);font-size:.86rem}
+.c-item b{font-weight:600;overflow-wrap:anywhere}
+.c-item .go{color:var(--ink-3);transition:transform .2s,color .2s}
+a.c-item:hover .go{color:var(--ink);transform:translate(2px,-2px)}
+.socials{display:flex;gap:8px;flex-wrap:wrap}
+.social{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 14px 0 12px;border-radius:999px;background:var(--surface);font-weight:600;font-size:.92rem;transition:background-color .2s}
+.social:hover{background:var(--surface-2)}
+.map{grid-column:1/-1;min-width:0;width:100%;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);aspect-ratio:21/8;min-height:280px;background:var(--surface)}
+.map iframe{width:100%;height:100%;border:0}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .map iframe{filter:invert(.9) hue-rotate(180deg) saturate(.7)} }
+@media (max-width: 880px){ .contact{grid-template-columns:1fr} .wa-card{min-height:0} .map{aspect-ratio:4/3} }
+
+/* ---------- Footer ---------- */
+.footer{background:var(--surface);padding-block:clamp(56px,7vw,88px) calc(32px + env(safe-area-inset-bottom,0px));font-size:.95rem}
+.foot-grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:32px}
+.foot-brand{display:grid;gap:16px;align-content:start}
+.foot-brand svg{height:44px;width:auto}
+.foot-brand p{color:var(--ink-2);max-width:32ch}
+.foot-col h4{font-size:.92rem;font-weight:600;color:var(--ink-3);margin-bottom:14px}
+.foot-col ul{display:grid;gap:10px}
+.foot-col a{color:var(--ink-2)}
+.foot-col a:hover{color:var(--ink)}
+.disclaimer{margin-top:48px;padding:20px 24px;border-radius:var(--r-sm);background:var(--bg);color:var(--ink-2);font-size:.9rem;display:flex;gap:14px;align-items:flex-start}
+.disclaimer .ic{color:var(--ink-3);margin-top:2px}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line);color:var(--ink-3);font-size:.88rem}
+.foot-bottom a:hover{color:var(--ink)}
+@media (max-width: 880px){ .foot-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .foot-brand{grid-column:1/-1} }
+@media (max-width: 420px){ .foot-grid{grid-template-columns:1fr} }
+
+/* ---------- Floating WhatsApp ---------- */
+.fab{position:fixed;right:max(18px, env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;display:flex;align-items:center;gap:10px;height:60px;padding:0 22px 0 18px;border-radius:999px;background:var(--btn);color:var(--btn-ink);box-shadow:0 10px 30px -8px rgba(14,59,36,.55), 0 0 0 1px rgba(246,243,234,.08) inset;font-weight:600;transition:transform .2s ease, padding .25s ease}
+.fab:hover{transform:translateY(-2px)}
+.fab .ic{width:28px;height:28px}
+.fab .badge{position:absolute;top:10px;left:40px;width:10px;height:10px;border-radius:50%;background:var(--gold);border:2px solid var(--btn)}
+.fab.compact{padding:0;width:60px;justify-content:center}
+.fab.compact .fab-label{display:none}
+.chat{position:fixed;right:max(18px, env(safe-area-inset-right,0px));bottom:calc(92px + env(safe-area-inset-bottom,0px));z-index:61;width:min(380px, calc(100vw - 36px));max-height:calc(100dvh - 120px - env(safe-area-inset-bottom,0px) - env(safe-area-inset-top,0px));display:flex;flex-direction:column;border-radius:26px;background:var(--raised);color:var(--ink);box-shadow:0 30px 80px -20px rgba(0,0,0,.35), 0 0 0 1px var(--line);overflow:hidden;opacity:0;visibility:hidden;transform:translateY(12px) scale(.98);transform-origin:bottom right;transition:opacity .22s ease, transform .22s ease, visibility 0s .22s}
+.chat.open{opacity:1;visibility:visible;transform:none;transition:opacity .22s ease, transform .22s ease}
+.chat-head{display:flex;align-items:center;gap:12px;padding:16px 16px 16px 18px;background:var(--forest);color:var(--cream)}
+.chat-head .av{width:42px;height:42px;border-radius:50%;background:var(--cream);display:grid;place-items:center;flex:none}
+.chat-head .av svg{width:32px;height:32px}
+.chat-head b{display:block;font-weight:650}
+.chat-head small{display:flex;align-items:center;gap:6px;color:rgba(246,243,234,.75);font-size:.82rem}
+.chat-head small i{width:7px;height:7px;border-radius:50%;background:var(--lime)}
+.chat-close{margin-left:auto;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:var(--cream)}
+.chat-close:hover{background:rgba(246,243,234,.12)}
+.chat-body{padding:18px;display:grid;gap:14px;overflow-y:auto}
+.bubble{justify-self:start;max-width:88%;padding:12px 14px;border-radius:4px 18px 18px 18px;background:var(--surface);font-size:.95rem}
+.quick{display:flex;flex-wrap:wrap;gap:8px}
+.quick button{min-height:36px;padding:0 14px;border-radius:999px;border:1px solid var(--line-2);font-size:.88rem;font-weight:600;color:var(--ink-2);transition:all .15s}
+.quick button:hover{color:var(--ink);border-color:var(--ink-3)}
+.quick button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chat label{font-size:.84rem;color:var(--ink-3);font-weight:500}
+.chat textarea{width:100%;min-height:92px;resize:vertical;padding:12px 14px;border-radius:14px;border:1px solid var(--line-2);background:var(--bg);color:var(--ink);font:inherit;font-size:.95rem;line-height:1.45}
+.chat textarea:focus{outline:2px solid var(--focus);outline-offset:1px}
+.chat-foot{padding:0 18px 18px}
+.chat-foot .btn{width:100%}
+.chat-foot small{display:block;text-align:center;margin-top:10px;color:var(--ink-3);font-size:.8rem}
+@media (max-width: 520px){ .fab{padding:0;width:58px;height:58px;justify-content:center} .fab .fab-label{display:none} .fab .badge{left:36px} .chat{bottom:calc(86px + env(safe-area-inset-bottom,0px))} }
+
+/* Toast */
+.toast{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom,0px));transform:translate(-50%,10px);z-index:70;padding:12px 18px;border-radius:999px;background:var(--ink);color:var(--bg);font-weight:600;font-size:.92rem;opacity:0;pointer-events:none;transition:opacity .2s, transform .2s}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+<noscript><p style="padding:24px;text-align:center">VK360 by Coach Vimal. Call or WhatsApp <a href="tel:+916380666701">+91 63806 66701</a>.</p></noscript>
+
+<!-- ============ SVG SPRITE: logo + icons (no need to edit) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="vk-mark" viewBox="0 0 100 100">
+      <path d="M 34.95 8.65 A 44 44 0 1 0 72.00 11.89" style="fill:none;stroke:var(--logo-ring);stroke-width:6.5;stroke-linecap:round"/>
+      <circle cx="53.83" cy="6.17" r="5.2" style="fill:var(--gold)"/>
+      <path d="M37.257000000000005 59.146H33.959L43.411 37.25H51.707L40.010999999999996 62.75H31.000999999999998L19.305 37.25H27.771Z M52.883 62.75V37.25H60.737V56.528L58.697 54.862L72.263 37.25H80.559L60.057 62.75ZM65.089 50.816 70.903 46.123999999999995 80.933 62.75H71.95700000000001Z" style="fill:var(--logo-ink)"/>
+    </symbol>
+    <symbol id="vk-logo" viewBox="56 56 814 222">
+      <g transform="translate(60,60) scale(2.2)">
+        <path d="M 34.95 8.65 A 44 44 0 1 0 72.00 11.89" style="fill:none;stroke:var(--logo-ring);stroke-width:6.5;stroke-linecap:round"/>
+        <circle cx="53.83" cy="6.17" r="5.2" style="fill:var(--gold)"/>
+        <path d="M37.257000000000005 59.146H33.959L43.411 37.25H51.707L40.010999999999996 62.75H31.000999999999998L19.305 37.25H27.771Z M52.883 62.75V37.25H60.737V56.528L58.697 54.862L72.263 37.25H80.559L60.057 62.75ZM65.089 50.816 70.903 46.123999999999995 80.933 62.75H71.95700000000001Z" style="fill:var(--logo-ink)"/>
+      </g>
+      <path d="M397.68 185.84H387.12L421.8 107.0H448.08L406.2 197.0H378.0L336.12 107.0H362.76Z M459.0 197.0V107.0H483.72V177.2L477.12 172.04L528.12 107.0H554.4L481.44 197.0ZM501.96000000000004 154.04 520.2 138.92000000000002 555.6 197.0H527.4Z" style="fill:var(--logo-ink)"/>
+      <path d="M563.64 135.44Q564.36 126.92 569.7 120.08000000000001Q575.04 113.24000000000001 584.88 109.22Q594.72 105.2 608.52 105.2Q620.64 105.2 629.52 108.32Q638.4 111.44 643.3199999999999 116.96000000000001Q648.24 122.48 648.24 130.04000000000002Q648.24 136.16 644.5799999999999 141.14Q640.92 146.12 633.24 149.06Q625.56 152.0 613.8 151.88V149.6Q625.1999999999999 149.0 633.3 151.34Q641.4 153.68 645.8399999999999 158.60000000000002Q650.28 163.52 650.28 170.96Q650.28 179.0 645.18 185.3Q640.0799999999999 191.6 630.3599999999999 195.2Q620.64 198.8 606.72 198.8Q593.16 198.8 583.0799999999999 194.96Q573.0 191.12 567.36 184.16Q561.72 177.2 561.24 167.84H581.64Q582.6 175.04 588.8399999999999 178.88Q595.0799999999999 182.72 606.72 182.72Q618.0 182.72 623.76 179.24Q629.52 175.76 629.52 169.52Q629.52 165.8 627.5999999999999 163.28Q625.68 160.76 621.06 159.5Q616.4399999999999 158.24 608.52 158.24H592.68V143.96H608.52Q618.8399999999999 143.96 623.28 140.84Q627.72 137.72 627.72 132.8Q627.72 127.28 622.6800000000001 124.28Q617.64 121.28 607.4399999999999 121.28Q597.0 121.28 591.12 124.94000000000001Q585.24 128.60000000000002 584.04 135.44Z M711.2399999999999 105.2Q722.52 105.2 731.16 108.56Q739.8 111.92 745.26 117.74000000000001Q750.7199999999999 123.56 751.92 131.0H732.5999999999999Q730.8 126.68 726.0 123.74000000000001Q721.1999999999999 120.8 711.8399999999999 120.8Q701.9999999999999 120.8 695.6399999999999 124.46000000000001Q689.28 128.12 686.28 134.9Q683.28 141.68 683.28 151.28Q683.28 161.48000000000002 686.6399999999999 168.62Q689.9999999999999 175.76 696.54 179.42000000000002Q703.0799999999999 183.08 712.56 183.08Q719.4 183.08 724.0799999999999 181.16000000000003Q728.76 179.24 731.16 175.88Q733.56 172.52 733.56 168.32Q733.56 164.24 731.3999999999999 161.06Q729.2399999999999 157.88 724.8 156.07999999999998Q720.3599999999999 154.28 713.64 154.28Q704.52 154.28 696.5999999999999 158.48000000000002Q688.68 162.68 682.8 170.0L675.2399999999999 164.72Q679.0799999999999 157.28 685.1999999999999 151.4Q691.3199999999999 145.52 699.5999999999999 142.10000000000002Q707.8799999999999 138.68 718.1999999999999 138.68Q729.1199999999999 138.68 737.1599999999999 142.28Q745.1999999999999 145.88 749.5799999999999 152.42000000000002Q753.9599999999999 158.96 753.9599999999999 167.72Q753.9599999999999 176.84 748.9799999999999 183.86Q743.9999999999999 190.88 734.6999999999999 194.84Q725.4 198.8 712.3199999999999 198.8Q696.3599999999999 198.8 685.56 192.86Q674.76 186.92 669.3599999999999 176.3Q663.9599999999999 165.68 663.9599999999999 152.0Q663.9599999999999 138.32 669.3599999999999 127.75999999999999Q674.76 117.2 685.3199999999999 111.2Q695.8799999999999 105.2 711.2399999999999 105.2Z M816.24 198.8Q801.12 198.8 790.14 192.98000000000002Q779.16 187.16 773.16 176.6Q767.16 166.04 767.16 152.0Q767.16 137.96 773.16 127.4Q779.16 116.84 790.14 111.02000000000001Q801.12 105.2 816.24 105.2Q831.24 105.2 842.22 111.02000000000001Q853.2 116.84 859.2 127.4Q865.2 137.96 865.2 152.0Q865.2 166.04 859.2 176.6Q853.2 187.16 842.22 192.98000000000002Q831.24 198.8 816.24 198.8ZM816.24 182.24Q829.8 182.24 837.3 174.26Q844.8 166.28 844.8 152.0Q844.8 137.6 837.3 129.68Q829.8 121.76 816.24 121.76Q802.68 121.76 795.1199999999999 129.68Q787.56 137.6 787.56 152.0Q787.56 166.4 795.1199999999999 174.32Q802.68 182.24 816.24 182.24Z" style="fill:var(--logo-num)"/>
+    </symbol>
+    <symbol id="vk-logo-full" viewBox="56 56 814 222">
+      <g transform="translate(60,60) scale(2.2)">
+        <path d="M 34.95 8.65 A 44 44 0 1 0 72.00 11.89" style="fill:none;stroke:var(--logo-ring);stroke-width:6.5;stroke-linecap:round"/>
+        <circle cx="53.83" cy="6.17" r="5.2" style="fill:var(--gold)"/>
+        <path d="M37.257000000000005 59.146H33.959L43.411 37.25H51.707L40.010999999999996 62.75H31.000999999999998L19.305 37.25H27.771Z M52.883 62.75V37.25H60.737V56.528L58.697 54.862L72.263 37.25H80.559L60.057 62.75ZM65.089 50.816 70.903 46.123999999999995 80.933 62.75H71.95700000000001Z" style="fill:var(--logo-ink)"/>
+      </g>
+      <path d="M397.68 185.84H387.12L421.8 107.0H448.08L406.2 197.0H378.0L336.12 107.0H362.76Z M459.0 197.0V107.0H483.72V177.2L477.12 172.04L528.12 107.0H554.4L481.44 197.0ZM501.96000000000004 154.04 520.2 138.92000000000002 555.6 197.0H527.4Z" style="fill:var(--logo-ink)"/>
+      <path d="M563.64 135.44Q564.36 126.92 569.7 120.08000000000001Q575.04 113.24000000000001 584.88 109.22Q594.72 105.2 608.52 105.2Q620.64 105.2 629.52 108.32Q638.4 111.44 643.3199999999999 116.96000000000001Q648.24 122.48 648.24 130.04000000000002Q648.24 136.16 644.5799999999999 141.14Q640.92 146.12 633.24 149.06Q625.56 152.0 613.8 151.88V149.6Q625.1999999999999 149.0 633.3 151.34Q641.4 153.68 645.8399999999999 158.60000000000002Q650.28 163.52 650.28 170.96Q650.28 179.0 645.18 185.3Q640.0799999999999 191.6 630.3599999999999 195.2Q620.64 198.8 606.72 198.8Q593.16 198.8 583.0799999999999 194.96Q573.0 191.12 567.36 184.16Q561.72 177.2 561.24 167.84H581.64Q582.6 175.04 588.8399999999999 178.88Q595.0799999999999 182.72 606.72 182.72Q618.0 182.72 623.76 179.24Q629.52 175.76 629.52 169.52Q629.52 165.8 627.5999999999999 163.28Q625.68 160.76 621.06 159.5Q616.4399999999999 158.24 608.52 158.24H592.68V143.96H608.52Q618.8399999999999 143.96 623.28 140.84Q627.72 137.72 627.72 132.8Q627.72 127.28 622.6800000000001 124.28Q617.64 121.28 607.4399999999999 121.28Q597.0 121.28 591.12 124.94000000000001Q585.24 128.60000000000002 584.04 135.44Z M711.2399999999999 105.2Q722.52 105.2 731.16 108.56Q739.8 111.92 745.26 117.74000000000001Q750.7199999999999 123.56 751.92 131.0H732.5999999999999Q730.8 126.68 726.0 123.74000000000001Q721.1999999999999 120.8 711.8399999999999 120.8Q701.9999999999999 120.8 695.6399999999999 124.46000000000001Q689.28 128.12 686.28 134.9Q683.28 141.68 683.28 151.28Q683.28 161.48000000000002 686.6399999999999 168.62Q689.9999999999999 175.76 696.54 179.42000000000002Q703.0799999999999 183.08 712.56 183.08Q719.4 183.08 724.0799999999999 181.16000000000003Q728.76 179.24 731.16 175.88Q733.56 172.52 733.56 168.32Q733.56 164.24 731.3999999999999 161.06Q729.2399999999999 157.88 724.8 156.07999999999998Q720.3599999999999 154.28 713.64 154.28Q704.52 154.28 696.5999999999999 158.48000000000002Q688.68 162.68 682.8 170.0L675.2399999999999 164.72Q679.0799999999999 157.28 685.1999999999999 151.4Q691.3199999999999 145.52 699.5999999999999 142.10000000000002Q707.8799999999999 138.68 718.1999999999999 138.68Q729.1199999999999 138.68 737.1599999999999 142.28Q745.1999999999999 145.88 749.5799999999999 152.42000000000002Q753.9599999999999 158.96 753.9599999999999 167.72Q753.9599999999999 176.84 748.9799999999999 183.86Q743.9999999999999 190.88 734.6999999999999 194.84Q725.4 198.8 712.3199999999999 198.8Q696.3599999999999 198.8 685.56 192.86Q674.76 186.92 669.3599999999999 176.3Q663.9599999999999 165.68 663.9599999999999 152.0Q663.9599999999999 138.32 669.3599999999999 127.75999999999999Q674.76 117.2 685.3199999999999 111.2Q695.8799999999999 105.2 711.2399999999999 105.2Z M816.24 198.8Q801.12 198.8 790.14 192.98000000000002Q779.16 187.16 773.16 176.6Q767.16 166.04 767.16 152.0Q767.16 137.96 773.16 127.4Q779.16 116.84 790.14 111.02000000000001Q801.12 105.2 816.24 105.2Q831.24 105.2 842.22 111.02000000000001Q853.2 116.84 859.2 127.4Q865.2 137.96 865.2 152.0Q865.2 166.04 859.2 176.6Q853.2 187.16 842.22 192.98000000000002Q831.24 198.8 816.24 198.8ZM816.24 182.24Q829.8 182.24 837.3 174.26Q844.8 166.28 844.8 152.0Q844.8 137.6 837.3 129.68Q829.8 121.76 816.24 121.76Q802.68 121.76 795.1199999999999 129.68Q787.56 137.6 787.56 152.0Q787.56 166.4 795.1199999999999 174.32Q802.68 182.24 816.24 182.24Z" style="fill:var(--logo-num)"/>
+      <path d="M343.662 249.0 339.2415 233.88H341.898L344.9115 244.8L347.9145 233.901L350.571 233.88L353.5845 244.8L356.5875 233.88H359.244L354.834 249.0H352.335L349.2375 238.248L346.161 249.0Z M365.95550000000003 249.0V233.88H375.7205V236.253H368.486V239.9805H374.4605V242.3535H368.486V246.627H375.7205V249.0Z M383.4505 249.0V233.88H385.981V246.627H392.659V249.0Z M399.654 249.0V233.88H402.1845V246.627H408.8625V249.0Z M415.64750000000004 249.0V233.88H418.2095L425.2235 244.5375V233.88H427.7855V249.0H425.2235L418.2095 238.3425V249.0Z M435.7255 249.0V233.88H445.4905V236.253H438.256V239.9805H444.2305V242.3535H438.256V246.627H445.4905V249.0Z M458.607 249.315Q456.94800000000004 249.315 455.61975 248.7375Q454.2915 248.16 453.43575 247.08375Q452.58 246.0075 452.349 244.527L454.974 244.128Q455.31 245.472 456.35474999999997 246.207Q457.3995 246.942 458.7645 246.942Q459.57300000000004 246.942 460.28700000000003 246.69Q461.00100000000003 246.438 461.44725000000005 245.95499999999998Q461.8935 245.472 461.8935 244.7685Q461.8935 244.4535 461.7885 244.18574999999998Q461.6835 243.918 461.47875 243.708Q461.274 243.498 460.95375 243.32475Q460.6335 243.1515 460.2135 243.0255L456.3075 241.8705Q455.8035 241.7235 455.22075 241.47674999999998Q454.63800000000003 241.23 454.11825 240.79424999999998Q453.5985 240.3585 453.26775 239.68124999999998Q452.937 239.004 452.937 238.0065Q452.937 236.547 453.67725 235.55475Q454.4175 234.5625 455.67225 234.06900000000002Q456.927 233.5755 458.46000000000004 233.586Q460.014 233.5965 461.23199999999997 234.11624999999998Q462.45 234.636 463.269 235.623Q464.088 236.61 464.42400000000004 238.0065L461.7045 238.47899999999998Q461.5365 237.681 461.05875000000003 237.11925000000002Q460.581 236.5575 459.89325 236.26350000000002Q459.20550000000003 235.9695 458.4285 235.9485Q457.6725 235.938 457.02675 236.17425Q456.38100000000003 236.4105 455.98725 236.8515Q455.5935 237.2925 455.5935 237.8805Q455.5935 238.437 455.9295 238.78875Q456.26550000000003 239.1405 456.76425000000006 239.34525000000002Q457.26300000000003 239.55 457.77750000000003 239.6865L460.48650000000004 240.4425Q461.043 240.5895 461.736 240.8415Q462.42900000000003 241.0935 463.06950000000006 241.54500000000002Q463.71000000000004 241.9965 464.12475000000006 242.73149999999998Q464.53950000000003 243.4665 464.53950000000003 244.6005Q464.53950000000003 245.7765 464.05125 246.66375Q463.563 247.551 462.7335 248.139Q461.904 248.727 460.83825 249.02100000000002Q459.77250000000004 249.315 458.607 249.315Z M477.4145 249.315Q475.7555 249.315 474.42724999999996 248.7375Q473.09899999999993 248.16 472.24324999999993 247.08375Q471.38749999999993 246.0075 471.15649999999994 244.527L473.78149999999994 244.128Q474.11749999999995 245.472 475.16225 246.207Q476.20699999999994 246.942 477.57199999999995 246.942Q478.3805 246.942 479.0945 246.69Q479.8085 246.438 480.25474999999994 245.95499999999998Q480.70099999999996 245.472 480.70099999999996 244.7685Q480.70099999999996 244.4535 480.596 244.18574999999998Q480.491 243.918 480.28625 243.708Q480.08149999999995 243.498 479.76124999999996 243.32475Q479.441 243.1515 479.02099999999996 243.0255L475.11499999999995 241.8705Q474.61099999999993 241.7235 474.02824999999996 241.47674999999998Q473.4455 241.23 472.92575 240.79424999999998Q472.40599999999995 240.3585 472.07525 239.68124999999998Q471.74449999999996 239.004 471.74449999999996 238.0065Q471.74449999999996 236.547 472.48474999999996 235.55475Q473.22499999999997 234.5625 474.47974999999997 234.06900000000002Q475.73449999999997 233.5755 477.2675 233.586Q478.82149999999996 233.5965 480.0395 234.11624999999998Q481.25749999999994 234.636 482.07649999999995 235.623Q482.89549999999997 236.61 483.2315 238.0065L480.51199999999994 238.47899999999998Q480.34399999999994 237.681 479.8662499999999 237.11925000000002Q479.38849999999996 236.5575 478.70074999999997 236.26350000000002Q478.013 235.9695 477.23599999999993 235.9485Q476.47999999999996 235.938 475.83425 236.17425Q475.1885 236.4105 474.79474999999996 236.8515Q474.40099999999995 237.2925 474.40099999999995 237.8805Q474.40099999999995 238.437 474.73699999999997 238.78875Q475.073 239.1405 475.57174999999995 239.34525000000002Q476.0705 239.55 476.585 239.6865L479.294 240.4425Q479.85049999999995 240.5895 480.5435 240.8415Q481.2365 241.0935 481.87699999999995 241.54500000000002Q482.5175 241.9965 482.93224999999995 242.73149999999998Q483.347 243.4665 483.347 244.6005Q483.347 245.7765 482.85875 246.66375Q482.37049999999994 247.551 481.54099999999994 248.139Q480.71149999999994 248.727 479.64574999999996 249.02100000000002Q478.58 249.315 477.4145 249.315Z M490.41549999999995 251.6775 490.56249999999994 250.5855Q491.04549999999995 250.6275 491.32899999999995 250.42275Q491.61249999999995 250.218 491.7122499999999 249.84525Q491.81199999999995 249.4725 491.75949999999995 249.0H490.41549999999995V246.3015H493.00899999999996V249.105Q493.00899999999996 250.4805 492.35799999999995 251.184Q491.70699999999994 251.8875 490.41549999999995 251.6775Z M511.199 249.0V233.88H520.9639999999999V236.253H513.7295V239.9805H519.704V242.3535H513.7295V246.627H520.9639999999999V249.0Z M531.886 249.0 527.119 233.88H529.723L533.713 246.543L537.7555 233.88H540.3595L535.5925 249.0Z M546.9345000000001 249.0V233.88H556.6995000000001V236.253H549.465V239.9805H555.4395000000001V242.3535H549.465V246.627H556.6995000000001V249.0Z M564.2195 249.0V233.88H570.467Q570.6875 233.88 571.034 233.89575Q571.3805 233.9115 571.6745 233.964Q572.987 234.1635 573.84275 234.8355Q574.6985 235.5075 575.11325 236.53125Q575.528 237.555 575.528 238.8045Q575.528 240.6525 574.5935 241.98075Q573.659 243.309 571.727 243.624L570.6455 243.7185H566.75V249.0ZM572.903 249.0 569.921 242.847 572.4935 242.28 575.7695 249.0ZM566.75 241.356H570.362Q570.572 241.356 570.8344999999999 241.33499999999998Q571.097 241.314 571.3175 241.251Q571.9475 241.0935 572.30975 240.6945Q572.672 240.2955 572.82425 239.79149999999998Q572.9765 239.2875 572.9765 238.8045Q572.9765 238.3215 572.82425 237.81225Q572.672 237.303 572.30975 236.904Q571.9475 236.505 571.3175 236.3475Q571.097 236.2845 570.8344999999999 236.26875Q570.572 236.253 570.362 236.253H566.75Z M586.7545 249.0V242.805L581.6095 233.88H584.5600000000001L588.0355000000001 239.907L591.5005 233.88H594.451L589.3165 242.805V249.0Z M609.0709999999999 249.0 613.838 233.88H617.5445L622.3114999999999 249.0H619.7075L615.3815 235.434H615.9485L611.675 249.0ZM611.7275 245.724V243.3615H619.6655V245.724Z M629.2015 249.0V233.88H631.7635L638.7775 244.5375V233.88H641.3394999999999V249.0H638.7775L631.7635 238.3425V249.0Z M655.5165 249.315Q654.0464999999999 249.315 652.7602499999999 248.79525Q651.4739999999999 248.2755 650.5027499999999 247.26749999999998Q649.5314999999999 246.2595 648.9855 244.79475000000002Q648.4395 243.33 648.4395 241.44Q648.4395 238.962 649.3634999999999 237.20325Q650.2874999999999 235.4445 651.894 234.50475Q653.5005 233.565 655.5165 233.565Q658.3095 233.565 659.94225 234.86175Q661.5749999999999 236.1585 662.1524999999999 238.5L659.5695 238.9095Q659.139 237.5655 658.1624999999999 236.76225Q657.1859999999999 235.959 655.674 235.959Q654.1514999999999 235.938 653.1434999999999 236.6205Q652.1355 237.303 651.62625 238.542Q651.117 239.781 651.117 241.44Q651.117 243.099 651.621 244.32225Q652.125 245.5455 653.13825 246.228Q654.1514999999999 246.9105 655.674 246.9315Q656.8185 246.942 657.6795 246.51675Q658.5405 246.0915 659.0864999999999 245.22525000000002Q659.6324999999999 244.359 659.8215 243.057H657.1545V241.0725H662.5095Q662.5305 241.2405 662.5409999999999 241.566Q662.5514999999999 241.8915 662.5514999999999 241.9545Q662.5514999999999 244.0965 661.70625 245.76075Q660.861 247.425 659.2860000000001 248.37Q657.711 249.315 655.5165 249.315Z M669.8614999999999 249.0V233.88H672.3919999999999V246.627H679.0699999999999V249.0Z M685.855 249.0V233.88H695.62V236.253H688.3855V239.9805H694.36V242.3535H688.3855V246.627H695.62V249.0Z" style="fill:var(--logo-ink)"/>
+    </symbol>
+
+    <symbol id="i-scale" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><path d="M8 10.2a5.6 5.6 0 0 1 8 0"/><path d="m12 12.2 1.6-3"/></symbol>
+    <symbol id="i-bowl" viewBox="0 0 24 24"><path d="M3.5 12.5h17a8.5 8.5 0 0 1-17 0Z"/><path d="M12 12.5c.2-4.3 2.8-7.4 7-7.9-.3 4.2-2.9 7.2-7 7.9Z"/><path d="M9.5 12.5c0-2.3-1.4-4-3.6-4.5"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M2.5 12.5h4.2l2.4-6 5 12 2.6-6h4.8"/></symbol>
+    <symbol id="i-sunrise" viewBox="0 0 24 24"><path d="M3 18h18"/><path d="M6.8 18a5.2 5.2 0 0 1 10.4 0"/><path d="M12 5v3.5M5.3 9.3l2 2M18.7 9.3l-2 2M8 21.5h8"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path class="ic-fill" style="fill:currentColor;stroke:none" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.27-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5.2 3.8h3.3l1.9 4.6-2.4 1.5a11.3 11.3 0 0 0 6.1 6.1l1.5-2.4 4.6 1.9v3.3a2 2 0 0 1-2.1 2A16.4 16.4 0 0 1 3.2 5.9a2 2 0 0 1 2-2.1Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.2s-7-6.1-7-11.6a7 7 0 0 1 14 0c0 5.5-7 11.6-7 11.6Z"/><circle cx="12" cy="9.6" r="2.6"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" style="fill:currentColor;stroke:none"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><path d="M15.2 7.8h-1.6a2.6 2.6 0 0 0-2.6 2.6v10.1"/><path d="M8.6 13.2h6"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10.4 9.4 4.4 2.6-4.4 2.6Z" style="fill:currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3.8 7.2 8.2 6 8.2-6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M12 7.4V12l3 2"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3.2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-cal-add" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3.2"/><path d="M3.5 10h17M8 3v4M16 3v4M12 12.8v5M9.5 15.3h5"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 3.5v11.5"/><path d="m7.8 7.7 4.2-4.2 4.2 4.2"/><path d="M5 12v5.5A3 3 0 0 0 8 20.5h8a3 3 0 0 0 3-3V12"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8.5h16M4 15.5h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.8v14.4a.8.8 0 0 0 1.2.7l11.3-7.2a.8.8 0 0 0 0-1.4L8.2 4.1A.8.8 0 0 0 7 4.8Z" style="fill:currentColor;stroke:none"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="2.8" y="6.3" width="13" height="11.4" rx="3"/><path d="m15.8 10.4 5.4-3.1v9.4l-5.4-3.1"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3.8 7.6A1.6 1.6 0 0 1 5.4 6h13.2a1.6 1.6 0 0 1 1.6 1.6V10a2 2 0 0 0 0 4v2.4a1.6 1.6 0 0 1-1.6 1.6H5.4a1.6 1.6 0 0 1-1.6-1.6V14a2 2 0 0 0 0-4Z"/><path d="M14.5 6.5v11" stroke-dasharray="1.6 2.2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8.4" r="3.6"/><path d="M2.8 20a6.2 6.2 0 0 1 12.4 0"/><path d="M16 4.9a3.6 3.6 0 0 1 0 7M18 14.4a6.2 6.2 0 0 1 3.2 5.6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.6 4.4 4.4L19 7.4"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.6-4.6-7.6-10.3A4.4 4.4 0 0 1 12 7.2a4.4 4.4 0 0 1 7.6 2.5C19.6 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 11.5V9.8A3.8 3.8 0 0 1 7.8 6H19.5"/><path d="m16.5 3 3 3-3 3"/><path d="M20 12.5v1.7a3.8 3.8 0 0 1-3.8 3.8H4.5"/><path d="m7.5 21-3-3 3-3"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1" style="fill:currentColor;stroke:none"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M12 21v-8.5"/><path d="M12 12.5C12 8.4 9 6 4.8 6c0 4.1 3 6.5 7.2 6.5Z"/><path d="M12 10.5c0-3.6 2.6-6 6.8-6 0 3.6-2.6 6-6.8 6Z"/></symbol>
+    <symbol id="i-steps" viewBox="0 0 24 24"><path d="M3 20.5h5v-5h5v-5h5v-5h3"/></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M8.4 14a4.6 4.6 0 0 0 7.2 0"/><path d="M9.2 9.6h.01M14.8 9.6h.01" stroke-width="2.6"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8Z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M12 11v5.2M12 7.8h.01"/></symbol>
+    <symbol id="i-news" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="16" rx="3"/><path d="M7.5 8.5h9M7.5 12h9M7.5 15.5h5"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ Announcement ============ -->
+<div class="announce" id="announce" hidden>
+  <div class="wrap">
+    <p><span class="dot" aria-hidden="true"></span><span><span id="announce-text"></span> <a id="announce-link" href="#whats-on"></a></span></p>
+    <button class="announce-close" id="announce-close" aria-label="Dismiss announcement"><svg class="ic"><use href="#i-close"/></svg></button>
+  </div>
+</div>
+
+<!-- ============ Navigation ============ -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="VK360 home"><svg viewBox="0 0 814 222" role="img" aria-label="VK360"><use href="#vk-logo"/></svg></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#programs">Programs</a>
+      <a href="#whats-on">What’s on</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary btn-sm nav-cta" data-wa="general" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp"/></svg>Message Coach</a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="sheet" aria-label="Open menu"><svg class="ic"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+<div class="sheet" id="sheet" aria-label="Menu">
+  <nav aria-label="Mobile">
+    <a href="#programs">Programs</a>
+    <a href="#whats-on">What’s on</a>
+    <a href="#about">About Coach Vimal</a>
+    <a href="#faq">Questions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="sheet-actions">
+    <a class="btn btn-primary" data-wa="general" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp"/></svg>Chat on WhatsApp</a>
+    <a class="btn btn-quiet" data-tel><svg class="ic"><use href="#i-phone"/></svg><span data-phone-text>Call</span></a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ Hero ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="hero-by"><svg class="ring-mini" viewBox="0 0 100 100" aria-hidden="true"><use href="#vk-mark"/></svg><span id="hero-by">Coach Vimal, 16 years in wellness and fitness coaching</span></p>
+      <h1 class="display" id="hero-title">Wellness, every angle.</h1>
+      <p class="lede" id="hero-lede">Personal coaching for your weight, nutrition, fitness and daily routine, so better health becomes part of everyday life.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" data-wa="general" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp"/></svg>Chat on WhatsApp</a>
+        <a class="btn btn-quiet" href="#programs">Explore programs</a>
+      </div>
+      <a class="next-up" id="next-up" href="#whats-on" hidden></a>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="-14 -14 128 128">
+        <circle class="disc" cx="50" cy="50" r="52"/>
+        <g class="ticks" id="hero-ticks"></g>
+        <path class="arc" pathLength="1" d="M 34.95 8.65 A 44 44 0 1 0 72.00 11.89"/>
+        <path class="vk" d="M37.257000000000005 59.146H33.959L43.411 37.25H51.707L40.010999999999996 62.75H31.000999999999998L19.305 37.25H27.771Z M52.883 62.75V37.25H60.737V56.528L58.697 54.862L72.263 37.25H80.559L60.057 62.75ZM65.089 50.816 70.903 46.123999999999995 80.933 62.75H71.95700000000001Z"/>
+        <circle class="dot" cx="53.83" cy="6.17" r="5.2"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Programs ============ -->
+<section class="section section-tint" id="programs" aria-labelledby="programs-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="programs-title">Four sides of a healthier you.</h2>
+      <p>Good health is never one thing. Coach Vimal looks at your weight, food, movement and routine together, then builds a plan you can actually keep.</p>
+    </div>
+    <div class="programs">
+      <div class="wheel">
+        <svg viewBox="0 0 320 320" id="wheel-svg" aria-hidden="true"></svg>
+        <div class="wheel-center" aria-hidden="true"><svg class="ic" id="wheel-icon"><use href="#i-scale"/></svg><b id="wheel-name"></b><small id="wheel-count"></small></div>
+      </div>
+      <div>
+        <div class="tabs" role="tablist" aria-label="Coaching programs" id="tabs"></div>
+        <div class="panel" role="tabpanel" id="panel" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Process ============ -->
+<section class="section" aria-labelledby="process-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="process-title">How coaching works.</h2>
+      <p>Every plan starts with understanding your body and your day, and keeps adjusting as you progress.</p>
+    </div>
+    <ol class="steps">
+      <li class="step"><h3>Say hello</h3><p>Message on WhatsApp with what you want to change.</p></li>
+      <li class="step"><h3>Understand your body</h3><p>Talk through your health, routine, food and activity today.</p></li>
+      <li class="step"><h3>Set realistic goals</h3><p>Agree on targets that fit your life and stage of life.</p></li>
+      <li class="step"><h3>Get your plan</h3><p>Personal guidance on nutrition, fitness and daily habits.</p></li>
+      <li class="step"><h3>Stay consistent</h3><p>Regular check-ins for motivation, accountability and adjustments.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ What's on ============ -->
+<section class="section band" id="whats-on" aria-labelledby="whats-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="whats-title">What’s on.</h2>
+      <p>Workshops running now, upcoming events and the latest news from the centre. Register for any of them in one message.</p>
+    </div>
+    <div class="whats">
+      <div>
+        <div class="chips" id="chips" role="group" aria-label="Filter events"></div>
+        <div class="events" id="events" aria-live="polite"></div>
+      </div>
+      <aside class="updates" id="updates" aria-labelledby="updates-title" hidden>
+        <h3 id="updates-title">Latest updates</h3>
+        <div id="updates-list"></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ About ============ -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="wrap about">
+    <figure class="portrait" id="portrait"></figure>
+    <div class="about-copy">
+      <h2 class="h2" id="about-title">Meet Coach Vimal.</h2>
+      <p>I am Coach Vimal, a wellness and fitness coach with 16 years of experience helping people improve their health, fitness, nutrition and lifestyle habits.</p>
+      <p>Through VK Fitness &amp; Wellness Center, I combine personalised wellness guidance, nutrition education, physical fitness and sustainable daily habits to help people live healthier.</p>
+      <p>My approach is simple: understand your body, set realistic goals, and work at them consistently, together, until better health and well-being feel normal.</p>
+      <dl class="facts">
+        <div><dt>Experience</dt><dd id="fact-years">16 years in wellness &amp; fitness coaching</dd></div>
+        <div><dt>Centre</dt><dd>VK Fitness &amp; Wellness Center</dd></div>
+        <div><dt>Focus</dt><dd>Wellness, nutrition, fitness and healthy lifestyle coaching</dd></div>
+        <div><dt>For</dt><dd>Individuals and families, at every stage of life</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Vision, mission, values ============ -->
+<section class="section section-tint" aria-labelledby="values-title">
+  <div class="wrap">
+    <h2 class="sr-only" id="values-title">Vision, mission and values</h2>
+    <div class="vm">
+      <article>
+        <h3><svg class="ic"><use href="#i-eye"/></svg>Our vision</h3>
+        <p>To build a trusted wellness brand that inspires individuals and families to make fitness, nutrition and well-being part of everyday life.</p>
+      </article>
+      <article>
+        <h3><svg class="ic"><use href="#i-compass"/></svg>Our mission</h3>
+        <p>To provide accessible, practical and personalised guidance that helps people reach their health goals through sustainable lifestyle changes.</p>
+      </article>
+    </div>
+    <ul class="values">
+      <li class="value"><span class="ic-wrap"><svg class="ic"><use href="#i-heart"/></svg></span><div><b>Health first</b><p>Every decision starts with what is right for your body.</p></div></li>
+      <li class="value"><span class="ic-wrap"><svg class="ic"><use href="#i-repeat"/></svg></span><div><b>Consistency</b><p>Small habits, repeated daily, beat short bursts of effort.</p></div></li>
+      <li class="value"><span class="ic-wrap"><svg class="ic"><use href="#i-target"/></svg></span><div><b>Personalised guidance</b><p>Plans built around your goals, routine and preferences.</p></div></li>
+      <li class="value"><span class="ic-wrap"><svg class="ic"><use href="#i-sprout"/></svg></span><div><b>Positive lifestyle changes</b><p>Progress you can feel, and keep, in everyday life.</p></div></li>
+      <li class="value"><span class="ic-wrap"><svg class="ic"><use href="#i-steps"/></svg></span><div><b>Fitness for every stage of life</b><p>Guidance that suits teenagers, parents and seniors alike.</p></div></li>
+      <li class="value"><span class="ic-wrap"><svg class="ic"><use href="#i-smile"/></svg></span><div><b>Health, happiness, well-being</b><p>Feeling good matters as much as the numbers.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ Media (appears when videos/posts are added) ============ -->
+<section class="section" id="media" aria-labelledby="media-title" hidden>
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="media-title">From Coach Vimal.</h2>
+      <p>Tips, routines and moments from the centre.</p>
+    </div>
+    <div class="media-block" id="videos-block" hidden><h3 class="h3">Videos</h3><div class="videos" id="videos"></div></div>
+    <div class="media-block" id="posts-block" hidden><h3 class="h3">Posts</h3><div class="posts" id="posts"></div></div>
+  </div>
+</section>
+
+<!-- ============ Testimonials (appears when added) ============ -->
+<section class="section section-tint" id="stories" aria-labelledby="stories-title" hidden>
+  <div class="wrap">
+    <div class="section-head"><h2 class="h2" id="stories-title">In their words.</h2></div>
+    <div class="quotes" id="quotes"></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq-grid">
+    <div class="section-head" style="margin:0">
+      <h2 class="h2" id="faq-title">Questions, answered.</h2>
+      <p>Something else on your mind? Ask Coach Vimal directly on WhatsApp.</p>
+      <a class="btn btn-line" data-wa="question" target="_blank" rel="noopener" style="justify-self:start;margin-top:8px"><svg class="ic"><use href="#i-whatsapp"/></svg>Ask a question</a>
+    </div>
+    <div class="faq" id="faq-list"></div>
+  </div>
+</section>
+
+<!-- ============ Contact ============ -->
+<section class="section section-tint" id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2" id="contact-title">Start with a conversation.</h2>
+      <p>Tell Coach Vimal about your goals. You will hear back on WhatsApp with the best way to begin.</p>
+    </div>
+    <div class="contact">
+      <div class="wa-card">
+        <svg class="ic ic-wa" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+        <div style="display:grid;gap:12px">
+          <h3>Chat with Coach Vimal on WhatsApp.</h3>
+          <p>Ask about coaching, workshops or events. A message is the quickest way to get started.</p>
+        </div>
+        <div class="row">
+          <span class="num" data-phone-text></span>
+          <a class="btn btn-cream" data-wa="general" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp"/></svg>Open WhatsApp</a>
+        </div>
+      </div>
+      <div class="c-list" id="c-list"></div>
+      <div class="map" id="map" hidden></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <svg viewBox="0 0 814 222" role="img" aria-label="VK360, wellness every angle"><use href="#vk-logo-full"/></svg>
+        <p id="foot-promise">Your health. Your fitness. Your better life.</p>
+      </div>
+      <div class="foot-col"><h4>Explore</h4><ul><li><a href="#programs">Programs</a></li><li><a href="#whats-on">What’s on</a></li><li><a href="#about">About Coach Vimal</a></li><li><a href="#faq">Questions</a></li></ul></div>
+      <div class="foot-col"><h4>Contact</h4><ul id="foot-contact"></ul></div>
+      <div class="foot-col" id="foot-follow-col" hidden><h4>Follow</h4><ul id="foot-follow"></ul></div>
+    </div>
+    <p class="disclaimer"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span>Coaching and wellness education are intended to complement, not replace, medical care. Please consult your doctor about any medical condition. Individual outcomes vary.</span></p>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> VK Fitness &amp; Wellness Center. All rights reserved.</span>
+      <a id="credit" target="_blank" rel="noopener" hidden></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ Floating WhatsApp ============ -->
+<button class="fab" id="fab" aria-expanded="false" aria-controls="chat" aria-label="Chat on WhatsApp">
+  <svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg><span class="fab-label">Chat with us</span><span class="badge" aria-hidden="true"></span>
+</button>
+<div class="chat" id="chat" role="dialog" aria-modal="false" aria-labelledby="chat-title">
+  <div class="chat-head">
+    <span class="av"><svg viewBox="0 0 100 100" aria-hidden="true" style="--logo-ink:#0E3B24;--logo-ring:#5E9F2A"><use href="#vk-mark"/></svg></span>
+    <div><b id="chat-title">Coach Vimal</b><small><i></i>Replies on WhatsApp</small></div>
+    <button class="chat-close" id="chat-close" aria-label="Close chat"><svg class="ic"><use href="#i-close"/></svg></button>
+  </div>
+  <div class="chat-body">
+    <p class="bubble">Hi! What would you like help with? Pick a topic or write your own message.</p>
+    <div class="quick" id="quick"></div>
+    <label for="chat-msg">Your message</label>
+    <textarea id="chat-msg" rows="3"></textarea>
+  </div>
+  <div class="chat-foot">
+    <a class="btn btn-primary" id="chat-send" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp"/></svg>Continue on WhatsApp</a>
+    <small>Opens WhatsApp with your message ready to send.</small>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+"use strict";
+document.documentElement.classList.add("js");
+var S = window.SITE || {};
+var B = S.brand || {}, C = S.contact || {}, SO = S.social || {};
+var $ = function(s, r){ return (r||document).querySelector(s); };
+var $$ = function(s, r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
+function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]; }); }
+function icon(n, cls){ return '<svg class="ic' + (cls ? " " + cls : "") + '" aria-hidden="true"><use href="#i-' + n + '"/></svg>'; }
+function wa(text){ return "https://wa.me/" + String(C.whatsapp || "").replace(/\D/g, "") + "?text=" + encodeURIComponent(text || C.whatsappMessage || ""); }
+function mapsUrl(q){ return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
+var toastT;
+function toast(msg){ var t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toastT); toastT = setTimeout(function(){ t.classList.remove("show"); }, 2200); }
+
+/* ---------- The 4 core programs (to change them, add a "programs" list inside SITE using the same shape) ---------- */
+var PROGRAMS = S.programs || [
+  { name: "Weight management", icon: "scale", intro: "Lose, gain or hold a healthy weight with a plan built around your body, your routine and your goals.",
+    items: ["Weight loss coaching", "Healthy weight gain guidance", "Weight maintenance programs", "Body composition and fitness goal guidance"] },
+  { name: "Nutrition & health", icon: "bowl", intro: "Learn what to eat, how much and when, and turn better food choices into everyday habits.",
+    items: ["Personalised nutrition guidance", "Healthy eating habits", "Daily nutrition and lifestyle education", "General wellness and healthy habit coaching"] },
+  { name: "Fitness & physical wellness", icon: "pulse", intro: "Move more and feel stronger through fitness coaching, aerobics, yoga-based practice and relaxation.",
+    items: ["Fitness coaching", "Aerobics", "Yoga-based fitness practices", "Meditation and relaxation practices", "Body stimulation and physical activity sessions"] },
+  { name: "Lifestyle coaching", icon: "sunrise", intro: "Fix the small things that shape your health: your mornings, evenings, water, sleep and staying consistent.",
+    items: ["Daily routine improvement", "Healthy morning and evening habits", "Hydration and sleep habits", "Consistency, motivation and accountability"] }
+];
+
+/* ---------- Basic text from SITE ---------- */
+function applyBasics(){
+  var years = B.years || 16;
+  $("#hero-by").textContent = (B.coach || "Coach Vimal") + ", " + years + " years in wellness and fitness coaching";
+  $("#fact-years").textContent = years + " years in wellness & fitness coaching";
+  if (B.promise) $("#foot-promise").textContent = B.promise;
+  $("#year").textContent = new Date().getFullYear();
+  $$("[data-wa]").forEach(function(a){
+    var kind = a.getAttribute("data-wa");
+    var msg = kind === "question" ? "Hi Coach Vimal, I have a question about VK360 coaching: " : C.whatsappMessage;
+    a.href = wa(msg);
+  });
+  $$("[data-tel]").forEach(function(a){ a.href = "tel:" + (C.phone || ""); });
+  $$("[data-phone-text]").forEach(function(el){ el.textContent = el.closest("[data-tel]") ? "Call " + (C.phoneDisplay || "") : (C.phoneDisplay || ""); });
+  var cr = S.credit || {};
+  if (cr.text){ var c = $("#credit"); c.textContent = cr.text; if (cr.link) c.href = cr.link; c.hidden = false; }
+}
+
+/* ---------- Announcement ---------- */
+function announcement(){
+  var a = S.announcement || {};
+  if (!a.show || !a.text) return;
+  var key = "vk360-dismissed:" + a.text;
+  try { if (localStorage.getItem(key)) return; } catch(e){}
+  $("#announce-text").textContent = a.text;
+  var l = $("#announce-link");
+  if (a.linkText){ l.textContent = a.linkText; l.href = a.link || "#whats-on"; } else l.remove();
+  $("#announce").hidden = false;
+  $("#announce-close").addEventListener("click", function(){
+    $("#announce").hidden = true;
+    try { localStorage.setItem(key, "1"); } catch(e){}
+  });
+}
+
+/* ---------- Hero ticks (360° dial) ---------- */
+function dial(el, cx, cy, r1, r2, r3){
+  var out = "";
+  for (var i = 0; i < 72; i++){
+    var a = (i * 5 - 90) * Math.PI / 180, major = i % 18 === 0;
+    var ri = major ? r3 : r1;
+    out += '<line class="tick' + (major ? " major" : "") + '" x1="' + (cx + ri * Math.cos(a)).toFixed(2) + '" y1="' + (cy + ri * Math.sin(a)).toFixed(2) + '" x2="' + (cx + r2 * Math.cos(a)).toFixed(2) + '" y2="' + (cy + r2 * Math.sin(a)).toFixed(2) + '"/>';
+  }
+  el.innerHTML = out;
+}
+
+/* ---------- Program wheel ---------- */
+function polar(cx, cy, r, deg){ var a = deg * Math.PI / 180; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; }
+function arcPath(cx, cy, r, a0, a1){
+  var p0 = polar(cx, cy, r, a0), p1 = polar(cx, cy, r, a1);
+  return "M" + p0[0].toFixed(2) + " " + p0[1].toFixed(2) + " A" + r + " " + r + " 0 " + (a1 - a0 > 180 ? 1 : 0) + " 1 " + p1[0].toFixed(2) + " " + p1[1].toFixed(2);
+}
+var current = 0;
+function programs(){
+  var svg = $("#wheel-svg"), n = PROGRAMS.length, cx = 160, cy = 160, r = 128;
+  var start = -60, end = 250, gap = 9, seg = (end - start - gap * (n - 1)) / n;
+  var html = "";
+  PROGRAMS.forEach(function(p, i){
+    var a0 = start + i * (seg + gap), a1 = a0 + seg, d = arcPath(cx, cy, r, a0, a1);
+    html += '<path class="hit" data-i="' + i + '" d="' + d + '"/><path class="seg" data-seg="' + i + '" d="' + d + '"/>';
+  });
+  var dp = polar(cx, cy, r, -85);
+  html += '<circle class="dot" cx="' + dp[0].toFixed(2) + '" cy="' + dp[1].toFixed(2) + '" r="15"/>';
+  svg.innerHTML = html;
+  $$(".hit", svg).forEach(function(h){ h.addEventListener("click", function(){ select(+h.getAttribute("data-i"), true); }); });
+
+  var tabs = $("#tabs");
+  tabs.innerHTML = PROGRAMS.map(function(p, i){
+    return '<button class="tab" role="tab" id="tab-' + i + '" aria-controls="panel" aria-selected="false" tabindex="-1">' + icon(p.icon) + '<span>' + esc(p.name) + '</span></button>';
+  }).join("");
+  $$(".tab", tabs).forEach(function(t, i){
+    t.addEventListener("click", function(){ select(i, true); });
+    t.addEventListener("keydown", function(e){
+      var k = e.key, next = null;
+      if (k === "ArrowRight" || k === "ArrowDown") next = (i + 1) % n;
+      if (k === "ArrowLeft" || k === "ArrowUp") next = (i - 1 + n) % n;
+      if (k === "Home") next = 0; if (k === "End") next = n - 1;
+      if (next !== null){ e.preventDefault(); select(next, true); $("#tab-" + next).focus(); }
+    });
+  });
+  select(0, false);
+}
+function select(i, animate){
+  current = i;
+  var p = PROGRAMS[i];
+  $$(".seg").forEach(function(s){ s.classList.toggle("on", +s.getAttribute("data-seg") === i); });
+  $$(".tab").forEach(function(t, j){ t.setAttribute("aria-selected", j === i); t.tabIndex = j === i ? 0 : -1; });
+  $("#wheel-icon").innerHTML = '<use href="#i-' + p.icon + '"/>';
+  $("#wheel-name").textContent = p.name;
+  $("#wheel-count").textContent = (i + 1) + " of " + PROGRAMS.length;
+  var panel = $("#panel");
+  panel.setAttribute("aria-labelledby", "tab-" + i);
+  panel.innerHTML = '<h3 class="h3">' + esc(p.name) + '</h3><p>' + esc(p.intro) + '</p><ul class="checks">' +
+    p.items.map(function(it){ return "<li>" + icon("check") + "<span>" + esc(it) + "</span></li>"; }).join("") +
+    '</ul><a class="btn btn-primary" target="_blank" rel="noopener" href="' + esc(wa("Hi Coach Vimal, I'm interested in " + p.name.toLowerCase() + " coaching. Could you tell me more?")) + '">' + icon("whatsapp") + "Ask about this program</a>";
+  if (animate){ panel.classList.remove("swap"); void panel.offsetWidth; panel.classList.add("swap"); }
+}
+
+/* ---------- Dates ---------- */
+function parseD(s){ if (!s) return null; var p = String(s).split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+function today(){ var d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+var fmt = function(d, o){ return new Intl.DateTimeFormat("en-IN", o).format(d); };
+function fmtTime(t){ if (!t) return ""; var p = t.split(":"), h = +p[0], m = p[1] || "00"; var ap = h >= 12 ? "PM" : "AM"; h = h % 12 || 12; return { t: h + ":" + m, ap: ap }; }
+function timeRange(a, b){
+  if (!a) return "";
+  var x = fmtTime(a); if (!b) return x.t + " " + x.ap;
+  var y = fmtTime(b); return x.ap === y.ap ? x.t + " – " + y.t + " " + y.ap : x.t + " " + x.ap + " – " + y.t + " " + y.ap;
+}
+function ymd(d){ return d.getFullYear() + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0"); }
+function status(ev){
+  var s = parseD(ev.startDate), e = parseD(ev.endDate) || s, t = today();
+  if (!s) return "none";
+  if (e < t) return "past";
+  if (s <= t) return +s === +e ? "today" : "now";
+  return "upcoming";
+}
+function gcal(ev){
+  var s = parseD(ev.startDate), e = parseD(ev.endDate) || s, dates, extra = "";
+  if (ev.startTime){
+    var et = ev.endTime || ev.startTime;
+    dates = ymd(s) + "T" + ev.startTime.replace(":", "") + "00/" + ymd(s) + "T" + et.replace(":", "") + "00";
+    if (+e !== +s) extra = "&recur=" + encodeURIComponent("RRULE:FREQ=DAILY;UNTIL=" + ymd(e));
+  } else {
+    var nx = new Date(e); nx.setDate(nx.getDate() + 1); dates = ymd(s) + "/" + ymd(nx);
+  }
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(ev.title) +
+    "&dates=" + dates + "&ctz=Asia/Kolkata&details=" + encodeURIComponent((ev.description || "") + "\n\nRegister: " + wa(regText(ev))) +
+    "&location=" + encodeURIComponent(ev.mapQuery || ev.venue || "") + extra;
+}
+function whenText(ev){
+  var s = parseD(ev.startDate), e = parseD(ev.endDate);
+  if (e && +e !== +s) return fmt(s, { day: "numeric", month: "short" }) + " – " + fmt(e, { day: "numeric", month: "short" });
+  return fmt(s, { weekday: "short", day: "numeric", month: "short" });
+}
+function regText(ev){ return 'Hi Coach Vimal, I would like to register for "' + ev.title + '" (' + whenText(ev) + "). Please share the details."; }
+
+/* ---------- Events ---------- */
+var EV = [], filter = "All";
+function events(){
+  var show = S.showPastEvents;
+  EV = (S.events || []).map(function(e, i){ var o = Object.assign({}, e); o._s = status(e); o._i = i; return o; })
+    .filter(function(e){ return e._s !== "none" && (show || e._s !== "past"); })
+    .sort(function(a, b){
+      var rank = { now: 0, today: 0, upcoming: 1, past: 2 };
+      if (rank[a._s] !== rank[b._s]) return rank[a._s] - rank[b._s];
+      return a._s === "past" ? parseD(b.startDate) - parseD(a.startDate) : parseD(a.startDate) - parseD(b.startDate);
+    });
+  var types = ["All"];
+  EV.forEach(function(e){ if (e.type && types.indexOf(e.type) < 0) types.push(e.type); });
+  var chips = $("#chips");
+  if (EV.length && types.length > 2){
+    chips.innerHTML = types.map(function(t){
+      var count = t === "All" ? EV.length : EV.filter(function(e){ return e.type === t; }).length;
+      return '<button class="chip" aria-pressed="' + (t === filter) + '" data-type="' + esc(t) + '">' + esc(t === "All" ? "All" : t + "s") + '<span class="n">' + count + "</span></button>";
+    }).join("");
+    $$(".chip", chips).forEach(function(c){ c.addEventListener("click", function(){ filter = c.getAttribute("data-type"); events(); }); });
+  } else chips.innerHTML = "";
+  var list = EV.filter(function(e){ return filter === "All" || e.type === filter; });
+  var box = $("#events");
+  if (!list.length){
+    box.innerHTML = '<div class="empty"><h3 class="h3">New dates are on the way.</h3><p class="muted">No workshops or events are scheduled right now. Message Coach Vimal to hear about the next one first.</p><a class="btn btn-cream" target="_blank" rel="noopener" href="' + esc(wa("Hi Coach Vimal, please let me know about your next workshop or event.")) + '">' + icon("whatsapp") + "Notify me on WhatsApp</a></div>";
+  } else box.innerHTML = list.map(evCard).join("");
+  $$("[data-share]", box).forEach(function(b){ b.addEventListener("click", function(){ share(EV.filter(function(e){ return e._i === +b.getAttribute("data-share"); })[0]); }); });
+  nextUp();
+}
+function evCard(ev){
+  var s = parseD(ev.startDate), e = parseD(ev.endDate), multi = e && +e !== +s;
+  var tile = '<div class="ev-date" aria-hidden="true"><span class="m">' + fmt(s, { month: "short" }) + '</span><span class="d">' + s.getDate() + '</span><span class="w">' +
+    (multi ? "to " + fmt(e, { day: "numeric", month: "short" }) : fmt(s, { weekday: "short" })) + "</span></div>";
+  var tags = '<span class="tag">' + esc(ev.type || "Event") + "</span>";
+  if (ev._s === "now") tags = '<span class="tag now"><span class="live-dot pulse"></span>Happening now</span>' + tags;
+  if (ev._s === "today") tags = '<span class="tag now"><span class="live-dot pulse"></span>Today</span>' + tags;
+  if (ev._s === "past") tags = '<span class="tag">Completed</span>' + tags;
+  var time = ev.startTime ? timeRange(ev.startTime, ev.endTime) + (ev.schedule ? ", " + ev.schedule : (multi ? ", daily" : "")) : (ev.schedule || "");
+  var meta = '<span>' + icon("cal") + esc(whenText(ev)) + "</span>";
+  if (time) meta += "<span>" + icon("clock") + esc(time) + "</span>";
+  var online = /online|zoom|meet|live/i.test((ev.mode || "") + " " + (ev.venue || ""));
+  if (ev.venue){
+    meta += online ? "<span>" + icon("video") + esc(ev.venue) + "</span>"
+      : '<a href="' + esc(mapsUrl(ev.mapQuery || [ev.venue, C.address].filter(Boolean).join(", "))) + '" target="_blank" rel="noopener">' + icon("pin") + esc(ev.venue) + "</a>";
+  } else if (ev.mode) meta += "<span>" + icon(online ? "video" : "pin") + esc(ev.mode) + "</span>";
+  if (ev.price) meta += "<span>" + icon("ticket") + esc(ev.price) + "</span>";
+  if (ev.seats) meta += "<span>" + icon("users") + esc(ev.seats) + "</span>";
+  var actions = ev._s === "past" ? "" : '<div class="ev-actions">' +
+    '<a class="btn btn-cream btn-sm" target="_blank" rel="noopener" href="' + esc(ev.link || wa(regText(ev))) + '">' + icon(ev.link ? "out" : "whatsapp") + "Register</a>" +
+    '<a class="btn btn-ghost-band btn-sm" target="_blank" rel="noopener" href="' + esc(gcal(ev)) + '">' + icon("cal-add") + "<span class=\"lg\">Add to calendar</span><span class=\"sm\">Calendar</span></a>" +
+    '<button class="btn btn-ghost-band btn-sm icon-btn" data-share="' + ev._i + '" aria-label="Share ' + esc(ev.title) + '">' + icon("share") + "</button></div>";
+  return '<article class="ev">' + tile + '<div class="ev-body"><div class="ev-top">' + tags + "</div><h3>" + esc(ev.title) + "</h3>" +
+    (ev.description ? "<p>" + esc(ev.description) + "</p>" : "") + '<div class="meta">' + meta + "</div>" + actions + "</div></article>";
+}
+function share(ev){
+  if (!ev) return;
+  var url = location.href.split("#")[0] + "#whats-on";
+  var text = ev.title + " | " + whenText(ev) + " with " + (B.coach || "Coach Vimal");
+  if (navigator.share){ navigator.share({ title: ev.title, text: text, url: url }).catch(function(){}); return; }
+  var full = text + "\n" + url;
+  if (navigator.clipboard){ navigator.clipboard.writeText(full).then(function(){ toast("Event link copied"); }, function(){ toast("Could not copy the link"); }); }
+}
+function nextUp(){
+  var n = EV.filter(function(e){ return e._s !== "past"; })[0], el = $("#next-up");
+  if (!n){ el.hidden = true; return; }
+  var s = parseD(n.startDate), live = n._s === "now" || n._s === "today";
+  var top = fmt(s, { month: "short" }), big = s.getDate(), lab = "Next up, " + esc(fmt(s, { weekday: "long" }));
+  if (n._s === "now"){
+    var total = Math.round((parseD(n.endDate) - s) / 864e5) + 1, day = Math.round((today() - s) / 864e5) + 1;
+    top = "Day"; big = day; lab = '<span class="live-dot pulse"></span>Happening now, day ' + day + " of " + total;
+  } else if (n._s === "today") lab = '<span class="live-dot pulse"></span>Today';
+  el.innerHTML = '<span class="cal"><span style="display:grid;justify-items:center;gap:3px"><small>' + top + "</small><b>" + big + '</b></span></span><span class="txt"><span class="label">' + lab +
+    '</span><span class="title">' + esc(n.title) + "</span></span>";
+  el.setAttribute("aria-label", (live ? "Happening now: " : "Next up: ") + n.title + ", " + whenText(n) + ". See what’s on.");
+  el.hidden = false;
+}
+
+/* ---------- Updates ---------- */
+function updates(){
+  var u = (S.updates || []).slice().sort(function(a, b){ return parseD(b.date) - parseD(a.date); }).slice(0, 5);
+  if (!u.length) return;
+  $("#updates-list").innerHTML = u.map(function(x){
+    var d = parseD(x.date);
+    return '<article class="upd">' + (d ? '<time datetime="' + esc(x.date) + '">' + fmt(d, { day: "numeric", month: "long", year: "numeric" }) + "</time>" : "") +
+      "<b>" + esc(x.title) + "</b>" + (x.text ? "<p>" + esc(x.text) + "</p>" : "") +
+      (x.link ? '<a href="' + esc(x.link) + '" target="_blank" rel="noopener">Read more' + icon("out") + "</a>" : "") + "</article>";
+  }).join("");
+  $("#updates").hidden = false;
+}
+
+/* ---------- Portrait ---------- */
+function portrait(){
+  var f = $("#portrait"), badge = '<span class="badge"><span class="live-dot"></span>' + (B.years || 16) + " years coaching</span>";
+  if (S.coachPhoto){
+    f.innerHTML = '<img src="' + esc(S.coachPhoto) + '" alt="' + esc(B.coach || "Coach Vimal") + '" loading="lazy">' + badge;
+    return;
+  }
+  f.innerHTML = '<div class="portrait-fallback"><svg viewBox="-14 -14 128 128" aria-hidden="true" style="--logo-ink:#F6F3EA;--logo-ring:#B9E34A"><g id="p-ticks"></g><use href="#vk-mark" x="0" y="0" width="100" height="100"/></svg>' +
+    '<figcaption class="portrait-name"><b>' + esc(B.coach || "Coach Vimal") + "</b><span>" + esc(B.role || "Wellness & Fitness Coach") + ", " + esc(B.centre || "") + "</span></figcaption></div>" + badge;
+  dial($("#p-ticks"), 50, 50, 55.5, 58.5, 53.5);
+}
+
+/* ---------- Media ---------- */
+function ytId(u){ var m = String(u || "").match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/); return m ? m[1] : (/^[\w-]{11}$/.test(u) ? u : null); }
+function media(){
+  var v = S.videos || [], p = S.posts || [];
+  if (v.length){
+    $("#videos").innerHTML = v.map(function(x, i){
+      var id = ytId(x.youtube), inner;
+      if (id) inner = '<img src="https://i.ytimg.com/vi/' + id + '/hqdefault.jpg" alt="" loading="lazy"><button class="play" data-yt="' + id + '" aria-label="Play ' + esc(x.title) + '"><span>' + icon("play") + "</span></button>";
+      else inner = '<video controls preload="metadata" playsinline' + (x.poster ? ' poster="' + esc(x.poster) + '"' : "") + ' src="' + esc(x.file || "") + '"></video>';
+      return '<div class="video"><div class="video-frame">' + inner + "</div>" + (x.title ? "<b>" + esc(x.title) + "</b>" : "") + "</div>";
+    }).join("");
+    $$("[data-yt]").forEach(function(b){ b.onclick = function(){
+      var holder = b.parentNode, f = document.createElement("iframe");
+      f.src = "https://www.youtube-nocookie.com/embed/" + b.getAttribute("data-yt") + "?autoplay=1&rel=0";
+      f.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"; f.allowFullscreen = true; f.title = "Video";
+      holder.innerHTML = ""; holder.appendChild(f);
+    }; });
+    $("#videos-block").hidden = false;
+  }
+  if (p.length){
+    $("#posts").innerHTML = p.map(function(x){
+      var d = parseD(x.date);
+      var img = '<div class="img"><img src="' + esc(x.image) + '" alt="' + esc(x.caption || "") + '" loading="lazy"></div>';
+      var body = (d ? '<time datetime="' + esc(x.date) + '">' + fmt(d, { day: "numeric", month: "short", year: "numeric" }) + "</time>" : "") + (x.caption ? "<p>" + esc(x.caption) + "</p>" : "");
+      return '<article class="post">' + (x.link ? '<a href="' + esc(x.link) + '" target="_blank" rel="noopener" style="display:grid;gap:12px">' + img + body + "</a>" : img + body) + "</article>";
+    }).join("");
+    $("#posts-block").hidden = false;
+  }
+  if (v.length || p.length) $("#media").hidden = false;
+  var t = S.testimonials || [];
+  if (t.length){
+    $("#quotes").innerHTML = t.map(function(x){ return '<figure class="quote"><blockquote style="margin:0"><p>“' + esc(x.quote) + '”</p></blockquote><figcaption><b>' + esc(x.name) + "</b><span>" + esc(x.detail || "") + "</span></figcaption></figure>"; }).join("");
+    $("#stories").hidden = false;
+  }
+}
+
+/* ---------- FAQ ---------- */
+function faqs(){
+  $("#faq-list").innerHTML = (S.faqs || []).map(function(f, i){
+    return "<details" + (i === 0 ? " open" : "") + "><summary>" + esc(f.q) + icon("plus") + "</summary><p>" + esc(f.a) + "</p></details>";
+  }).join("");
+}
+
+/* ---------- Contact ---------- */
+function contact(){
+  var rows = [];
+  var row = function(href, ic, label, value, ext){
+    return '<a class="c-item" href="' + esc(href) + '"' + (ext ? ' target="_blank" rel="noopener"' : "") + '><span class="ic-wrap">' + icon(ic) + '</span><span><small>' + esc(label) + "</small><b>" + esc(value) + "</b></span>" + icon("out", "go") + "</a>";
+  };
+  if (C.phone) rows.push(row("tel:" + C.phone, "phone", "Call", C.phoneDisplay || C.phone));
+  if (C.whatsapp) rows.push(row(wa(), "whatsapp", "WhatsApp", C.phoneDisplay || C.whatsapp, true));
+  if (C.email) rows.push(row("mailto:" + C.email, "mail", "Email", C.email));
+  if (C.address) rows.push(row(C.mapsLink || mapsUrl(C.address), "pin", "Visit the centre", C.address, true));
+  if (C.hours && C.hours.length){
+    rows.push('<div class="c-item"><span class="ic-wrap">' + icon("clock") + "</span><span><small>Hours</small>" +
+      C.hours.map(function(h){ return "<b style=\"display:block\">" + esc(h.days) + ": " + esc(h.time) + "</b>"; }).join("") + "</span><span></span></div>");
+  }
+  var soc = [["instagram", "Instagram"], ["facebook", "Facebook"], ["youtube", "YouTube"]].filter(function(s){ return SO[s[0]]; });
+  if (soc.length){
+    rows.push('<div class="c-item"><span class="ic-wrap">' + icon("heart") + '</span><span><small>Follow</small><span class="socials" style="margin-top:8px">' +
+      soc.map(function(s){ return '<a class="social" href="' + esc(SO[s[0]]) + '" target="_blank" rel="noopener">' + icon(s[0]) + s[1] + "</a>"; }).join("") + "</span></span><span></span></div>");
+  }
+  $("#c-list").innerHTML = rows.join("");
+  if (C.address){
+    $("#map").innerHTML = '<iframe title="Map to VK Fitness & Wellness Center" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=' + encodeURIComponent(C.address) + '&output=embed"></iframe>';
+    $("#map").hidden = false;
+  }
+  // footer
+  var fc = [];
+  if (C.phone) fc.push('<li><a href="tel:' + esc(C.phone) + '">' + esc(C.phoneDisplay || C.phone) + "</a></li>");
+  fc.push('<li><a href="' + esc(wa()) + '" target="_blank" rel="noopener">WhatsApp</a></li>');
+  if (C.email) fc.push('<li><a href="mailto:' + esc(C.email) + '">' + esc(C.email) + "</a></li>");
+  if (C.address) fc.push('<li><a href="' + esc(C.mapsLink || mapsUrl(C.address)) + '" target="_blank" rel="noopener">Get directions</a></li>');
+  $("#foot-contact").innerHTML = fc.join("");
+  if (soc.length){
+    $("#foot-follow").innerHTML = soc.map(function(s){ return '<li><a href="' + esc(SO[s[0]]) + '" target="_blank" rel="noopener">' + s[1] + "</a></li>"; }).join("");
+    $("#foot-follow-col").hidden = false;
+  }
+  // structured data for Google
+  var ld = { "@context": "https://schema.org", "@type": "HealthAndBeautyBusiness", name: "VK360 by " + (B.coach || "Coach Vimal"), alternateName: B.centre, description: "Wellness, nutrition, fitness and lifestyle coaching.", telephone: C.phone, url: location.href.split("#")[0], slogan: B.tagline,
+    founder: { "@type": "Person", name: B.coach, jobTitle: B.role }, sameAs: soc.map(function(s){ return SO[s[0]]; }) };
+  if (C.address) ld.address = C.address;
+  if (C.email) ld.email = C.email;
+  var sc = document.createElement("script"); sc.type = "application/ld+json"; sc.textContent = JSON.stringify(ld); document.head.appendChild(sc);
+}
+
+/* ---------- Floating WhatsApp ---------- */
+function chat(){
+  var fab = $("#fab"), box = $("#chat"), msg = $("#chat-msg"), send = $("#chat-send");
+  var topics = [
+    ["Weight loss", "Hi Coach Vimal, I'd like help with weight loss. Could you tell me how your coaching works?"],
+    ["Healthy weight gain", "Hi Coach Vimal, I'd like to gain weight in a healthy way. Can you guide me?"],
+    ["Nutrition", "Hi Coach Vimal, I'm looking for personalised nutrition guidance."],
+    ["Fitness & yoga", "Hi Coach Vimal, I'm interested in your fitness, aerobics and yoga sessions."],
+    ["Workshops & events", "Hi Coach Vimal, I'd like to know about your current workshops and upcoming events."],
+    ["Something else", C.whatsappMessage]
+  ];
+  $("#quick").innerHTML = topics.map(function(t, i){ return '<button type="button" aria-pressed="false" data-q="' + i + '">' + esc(t[0]) + "</button>"; }).join("");
+  msg.value = C.whatsappMessage || "";
+  var sync = function(){ send.href = wa(msg.value.trim() || C.whatsappMessage); };
+  sync();
+  msg.addEventListener("input", sync);
+  $$("#quick button").forEach(function(b){ b.addEventListener("click", function(){
+    $$("#quick button").forEach(function(x){ x.setAttribute("aria-pressed", x === b); });
+    msg.value = topics[+b.getAttribute("data-q")][1]; sync();
+  }); });
+  var open = function(v){
+    box.classList.toggle("open", v); fab.setAttribute("aria-expanded", v);
+    if (v) setTimeout(function(){ var f = $("#quick button"); if (f) f.focus(); }, 60); 
+  };
+  fab.addEventListener("click", function(){ open(!box.classList.contains("open")); });
+  $("#chat-close").addEventListener("click", function(){ open(false); fab.focus(); });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape" && box.classList.contains("open")){ open(false); fab.focus(); } });
+  document.addEventListener("click", function(e){ if (box.classList.contains("open") && !box.contains(e.target) && !fab.contains(e.target)) open(false); });
+  send.addEventListener("click", function(){ setTimeout(function(){ open(false); }, 300); });
+  // collapse label after scrolling a little
+  var onScroll = function(){ fab.classList.toggle("compact", window.scrollY > 400); $("#nav").classList.toggle("scrolled", window.scrollY > 8); };
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+}
+
+/* ---------- Mobile menu ---------- */
+function menu(){
+  var btn = $("#menu-btn"), sheet = $("#sheet");
+  var set = function(v){
+    if (v) sheet.style.paddingTop = (Math.max(0, $("#nav").getBoundingClientRect().bottom) + 16) + "px";
+    sheet.classList.toggle("open", v); document.body.classList.toggle("menu-open", v);
+    btn.setAttribute("aria-expanded", v); btn.setAttribute("aria-label", v ? "Close menu" : "Open menu");
+    btn.innerHTML = icon(v ? "close" : "menu");
+  };
+  btn.addEventListener("click", function(){ set(!sheet.classList.contains("open")); });
+  $$("a", sheet).forEach(function(a){ a.addEventListener("click", function(){ set(false); }); });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape" && sheet.classList.contains("open")){ set(false); btn.focus(); } });
+  window.matchMedia("(min-width: 881px)").addEventListener("change", function(m){ if (m.matches) set(false); });
+}
+
+applyBasics(); announcement(); dial($("#hero-ticks"), 50, 50, 55.5, 58.5, 53.5);
+programs(); events(); updates(); portrait(); media(); faqs(); contact(); chat(); menu();
+})();
+</script>
+</body>
+</html>

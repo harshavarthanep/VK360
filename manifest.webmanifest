@@ -1,0 +1,14 @@
+{
+  "name": "VK360 by Coach Vimal",
+  "short_name": "VK360",
+  "description": "Wellness, nutrition, fitness and lifestyle coaching with Coach Vimal.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0E3B24",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
