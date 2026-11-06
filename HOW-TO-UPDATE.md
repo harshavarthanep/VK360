@@ -25,6 +25,12 @@ Copy one block inside `events: [ ... ]`, paste it, and change the values.
 - Register button opens WhatsApp with the event name pre-filled
   (or set `link` to use a Google Form instead).
 
+## Change Coach Vimal's photo
+The photo is `media/coach-vimal.jpg` (hero circle + About section) and
+`media/coach-vimal-avatar.jpg` (small round photo in the chat and contact card).
+Upload a new file with the same name to replace it. A square photo of at least
+1200 × 1200 px with the face in the upper half looks sharpest.
+
 ## Add photos and videos
 1. On GitHub, open the `media` folder, click **Add file → Upload files**.
 2. Use the path in `index.html`, for example:
@@ -45,4 +51,5 @@ Tips: keep photos under 500 KB (compress at squoosh.app). GitHub allows files up
 ## Share preview (WhatsApp / Facebook link card)
 The share image URL in `<head>` assumes the site lives at
 `https://harshavarthanep.github.io/VK360/`. If your repository has a different name,
-replace `VK360` in the 3 lines with `og:url`, `og:image` and `canonical`.
+replace `VK360` in the 3 lines with `og:url`, `og:image` and `canonical`,
+and in `404.html`, `robots.txt` and `sitemap.xml`.
